@@ -1,0 +1,5 @@
+﻿Endocrine Marker,IGF-I,P-III-NP
+Test Method and Instrumentation,Quantitative Procedure (ITP and CP): Top-down (intact) Liquid Chromatography combined with tandem Mass Spectrometry based on triple quadrupole (LC-MSⁿ) or High-Resolution Mass Spectrometry analyzer (LC-HRMS). Qualitative Procedure (CP): LC-MSⁿ (or LC-HRMS) (in compliance with the ISL TD IDCR [3]).,Quantitative Procedure (ITP and CP): Chemiluminescent immunoassay.
+Aliquot,Shall be measured (ITP and CP) in singlicate (1x) on one (1) serum Aliquot not greater than (≤) 50 μL.,Shall be measured (ITP and CP) in singlicate (1x) on one (1) serum Aliquot according to manufacturer’s instructions.
+Internal Standards,"Stable isotope-labeled IGF-I (e.g., NIST or ProSpec ¹⁵N-IGF-I).",N/A
+Calibration,A freshly prepared Single Point Calibrator (SPC) shall be included in each analytical batch. The recombinant human IGF-I calibrator from NIST (SRM 2926) should be used to prepare the SPC. Any other calibration material shall be validated against the NIST SRM 2926 calibrator.,As per kit instructions.

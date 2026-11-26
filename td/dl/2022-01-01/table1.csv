@@ -1,0 +1,9 @@
+﻿Substance Class,Threshold Substance,Threshold (T),Maximum Relative Combined Standard Uncertainty at T u<sub>c_Max</sub> (%),Decision Limit (DL)ᵃ
+S3. Beta-2 Agonists,Salbutamol,1.00 µg/mL,10,1.20 µg/mL
+S3. Beta-2 Agonists,Formoterol,40.0 ng/mL,15,50.0 ng/mL
+S6. Stimulants,Cathine,5.00 µg/mLᵇ,10,6.00 µg/mLᵇ
+S6. Stimulants,Ephedrine,10.0 µg/mL,5.0,11.0 µg/mL
+S6. Stimulants,Methylephedrine,10.0 µg/mL,5.0,11.0 µg/mL
+S6. Stimulants,Pseudoephedrine,150 µg/mL,5.0,170 µg/mL
+S7. Narcotics,Morphine,1.00 µg/mL,15,1.30 µg/mL
+S8. Cannabinoids,Carboxy-THC,150 ng/mL,10,180 ng/mL

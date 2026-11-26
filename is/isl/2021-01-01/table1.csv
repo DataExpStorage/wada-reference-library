@@ -1,0 +1,14 @@
+﻿Analytical Testing Conditions,Nonconformity,Type of Error Outcome,Penalty Points,Actions and Sanctions
+Routine Analytical Testing (Art 7.2.1.1),False AAF + Consequence for the Athlete,Technical / Methodological error or Clerical / Administrative error,20,Cease Analytical Testing and Suspension / Analytical Testing Restriction
+Routine Analytical Testing (Art 7.2.1.1) Or EQAS (blind or double blind) round (Art 7.2.1.2),False AAF + No Consequence for the Athlete,Technical / Methodological error,20,Cease Analytical Testing
+Routine Analytical Testing (Art 7.2.1.1) Or EQAS (blind or double blind) round (Art 7.2.1.2),False AAF + No Consequence for the Athlete,· Self-reporting²⁹,- 5,Resume Analytical Testing
+Routine Analytical Testing (Art 7.2.1.1) Or EQAS (blind or double blind) round (Art 7.2.1.2),False AAF + No Consequence for the Athlete,· Satisfactory and timely CAR,- 10,Resume Analytical Testing
+Routine Analytical Testing (Art 7.2.1.1) Or EQAS (blind or double blind) round (Art 7.2.1.2),False AAF + No Consequence for the Athlete,· Unsatisfactory CAR,+ 5,Suspension / Analytical Testing Restriction
+Routine Analytical Testing (Art 7.2.1.1) Or EQAS (blind or double blind) round (Art 7.2.1.2),False AAF + No Consequence for the Athlete,Clerical / Administrative error,15,Cease Analytical Testing
+Routine Analytical Testing (Art 7.2.1.1) Or EQAS (blind or double blind) round (Art 7.2.1.2),False AAF + No Consequence for the Athlete,· Self-reporting²⁹,- 5,Resume Analytical Testing
+Routine Analytical Testing (Art 7.2.1.1) Or EQAS (blind or double blind) round (Art 7.2.1.2),False AAF + No Consequence for the Athlete,· Satisfactory and timely CAR,- 10,Resume Analytical Testing
+Routine Analytical Testing (Art 7.2.1.1) Or EQAS (blind or double blind) round (Art 7.2.1.2),False AAF + No Consequence for the Athlete,· Unsatisfactory CAR,+ 10,Suspension / Analytical Testing Restriction
+Routine Analytical Testing Or EQAS (blind or double blind),False Negative Finding (Art 7.2.2),False Negative Finding,10,Additional EQAS samples³⁰
+Routine Analytical Testing Or EQAS (blind or double blind),False Negative Finding (Art 7.2.2),· Self-reporting²⁹,- 5,Additional EQAS samples³⁰
+Routine Analytical Testing Or EQAS (blind or double blind),False Negative Finding (Art 7.2.2),· Satisfactory and timely CAR,- 5,Additional EQAS samples³⁰
+round,False Negative Finding (Art 7.2.2),· Unsatisfactory CAR,+ 5,Additional EQAS samples³⁰

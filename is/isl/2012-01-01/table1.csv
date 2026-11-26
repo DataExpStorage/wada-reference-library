@@ -1,0 +1,14 @@
+﻿Section,Category,Result,Points,Action
+Scoring,Prohibited Substances,False positive,25,Immediate Suspension
+Scoring,Prohibited Substances,False negative,10,Corrective Action Report
+Scoring,Threshold Substances,|z-score| ≥ 3.0,10,Corrective Action Report
+Scoring,Threshold Substances,2.0 < |z-score| < 3.0,5,Internal investigation
+Scoring,Sample Parameters,SG |z-score| ≥ 3.0,1,Internal investigation
+Scoring,Steroid Profile concentrations |z-score| ≥ 3.0,Occurrences**: 4 - 7,2,Internal investigation
+Scoring,Steroid Profile concentrations |z-score| ≥ 3.0,Occurrences**: 8 – 12,4,Corrective Action Report
+Scoring,Steroid Profile concentrations |z-score| ≥ 3.0,Occurrences**: 13-18,7,Corrective Action Report
+Scoring,Steroid Profile concentrations |z-score| ≥ 3.0,Occurrences**: ≥19,10,Corrective Action Report
+Scoring,Documentation*,ISL Non-conformity,2,Corrective Action Report
+Scoring,Technical Issue,ISL Non-conformity,2,Corrective Action Report
+Evaluation,Point Total for single EQAS round,,≥ 24,Suspension
+Evaluation,Point Total per 12 month period,,≥ 30,Suspension or Revocation of accreditation

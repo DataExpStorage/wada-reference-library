@@ -1,0 +1,5 @@
+﻿Validation Parameter,Acceptance Criterion
+s<sub>r</sub> (%) (Rec₁; Pit₁; Rec₂; Pit₂),< 15%
+s<sub>w</sub> (%) (Rec₁; Pit₁; Rec₂; Pit₂),< 20%
+u<sub>c</sub> (%) (Rec₁/Pit₁; Rec₂/Pit₂),≤ 20%
+LOQ (Rec₁; Pit₁; Rec₂; Pit₂),≤ 0.100 ng/mL

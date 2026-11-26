@@ -1,0 +1,13 @@
+﻿Validation Requirement,ITP (all substances),CP (Qualitative Procedure),CP (Quantitative Procedure)¹
+Selectivity,Required,Required,Required
+LOD,Required,Required²,N/A
+Reliability of Detection,At ≤ MRPL (Non-Threshold Substance without MRL); At ≤ MRL (Non-Threshold Substance with MRL); At ≤ 50% Threshold (Threshold Substance),N/A,N/A
+LOI,N/A,Required³,N/A
+Carryover,Required,Required,Required
+Sample Extract Stability,Required,Required,Required
+Working Range,N/A⁴,N/A,Required
+LOQ,N/A⁴,N/A,Required
+Repeatability (s<sub>r</sub>),N/A⁴,N/A,Required
+Intermediate Precision (s<sub>w</sub>),N/A⁴,N/A,Required
+Bias (b),N/A⁴,N/A,Required
+MU (u<sub>c</sub>),N/A⁴,N/A,Required

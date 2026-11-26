@@ -1,0 +1,9 @@
+﻿Substance Class,Threshold Substance,Threshold,u<sub>c_Max</sub> (%)ᵃ,Decision Limitᵇ,Target Analyte(s)
+S2.1.2. Hypoxia-Inducible Factor Activating Agents,Cobalt,60.0 ng/mL,20,80.0 ng/mL,Inorganic Cobalt (Co²⁺ )
+S3. Beta-2 Agonists,Formoterol,40.0 ng/mL,15,50.0 ng/mL,"Total content of formoterol, including: · Free (non-conjugated) form of formoterol AND · Its glucuronidated phase-II Metabolite, expressed as formoterol equivalent"
+S3. Beta-2 Agonists,Salbutamol,1.00 µg/mL,10,1.20 µg/mL,"Total content of salbutamol, including: · Free (non-conjugated) form of salbutamol AND · Its glucuronidated phase-II Metabolite, expressed as salbutamol equivalent"
+S6b. Specified Stimulants,Cathineᶜ,5.00 µg/mL,10,6.00 µg/mL,"Total content of the free (non-conjugated) form of the target substance, including both levo- (l-) and dextro- (d-) enantiomers."
+S6b. Specified Stimulants,Ephedrine,10.0 µg/mL,5.0,11.0 µg/mL,"Total content of the free (non-conjugated) form of the target substance, including both levo- (l-) and dextro- (d-) enantiomers."
+S6b. Specified Stimulants,Methylephedrine,10.0 µg/mL,5.0,11.0 µg/mL,"Total content of the free (non-conjugated) form of the target substance, including both levo- (l-) and dextro- (d-) enantiomers."
+S6b. Specified Stimulants,Pseudoephedrine,150 µg/mL,5.0,170 µg/mL,"Total content of the free (non-conjugated) form of the target substance, including both levo- (l-) and dextro- (d-) enantiomers."
+S7. Narcotics,Morphine (M),1.00 µg/mL,15,1.30 µg/mL,"Total content of Morphine, including: · Free (non-conjugated) form of Morphine AND · The phase-II M-3-glucuronidated Metabolite (M3G), expressed as M equivalent AND · The phase-II M-6-glucuronidated Metabolite (M6G), expressed as M equivalent"

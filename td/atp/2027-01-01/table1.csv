@@ -1,0 +1,21 @@
+﻿Section,Prohibited Substance Class,Prohibited Substance Subclass / Specific Examples,Matrix,"Test Method(s)<sup>1, 2, 3</sup>: Qualitative Procedure","Test Method(s)<sup>1, 2, 3</sup>: Quantitative Procedure",Exceptions (not mandatory)
+MANDATORY TEST METHODS – A. APPLICABLE TO ALL SAMPLES: IN- and OUT-OF-COMPETITION,S1. Anabolic Agents,S1.1 Anabolic Androgenic Steroids (AAS) • Exogenous AAS • 19-NA; 19-NE,Urine,ITP and CP: GC-MSⁿ or LC-MSⁿ,n/a,n/a⁴
+MANDATORY TEST METHODS – A. APPLICABLE TO ALL SAMPLES: IN- and OUT-OF-COMPETITION,S1. Anabolic Agents,• Urinary Markers of the Steroidal Module of the ABP⁵,Urine,CP: GC-MSⁿ,ITP and CP: GC-MSⁿ,n/a⁴
+MANDATORY TEST METHODS – A. APPLICABLE TO ALL SAMPLES: IN- and OUT-OF-COMPETITION,S1. Anabolic Agents,S1.2 Other Anabolic Agents,Urine,ITP and CP: GC-MSⁿ or LC-MSⁿ,n/a,n/a
+MANDATORY TEST METHODS – A. APPLICABLE TO ALL SAMPLES: IN- and OUT-OF-COMPETITION,"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics",S2.1.2 Hypoxia-inducible Factor (HIF) Activating Agents,Urine,ITP and CP: LC-MSⁿ or GC-MSⁿ,n/a,Xenon (GC-MS); Cobalt (ICP-MS)
+MANDATORY TEST METHODS – A. APPLICABLE TO ALL SAMPLES: IN- and OUT-OF-COMPETITION,"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics","S2.2.1 Chorionic gonadotrophin (CG)<sup>5, 6</sup>",Urine,n/a,ITP for hCG: Immunoassay or LC-MSⁿ,CP for hCG (Quantitative Procedure): Immunoassay⁷ or LC-MSⁿ
+MANDATORY TEST METHODS – A. APPLICABLE TO ALL SAMPLES: IN- and OUT-OF-COMPETITION,S3. Beta-2 Agonists,,Urine,"Non-Threshold Substances (ITP, CP) LC-MSⁿ, or GC-MSⁿ; Threshold Substances (ITP, CP) LC-MSⁿ or GC-MSⁿ",n/a; Threshold Substances (CP) LC-MSⁿ or GC-MSⁿ,n/a
+MANDATORY TEST METHODS – A. APPLICABLE TO ALL SAMPLES: IN- and OUT-OF-COMPETITION,S4. Hormone and Metabolic Modulators,S4.1 Aromatase Inhibitors,Urine,ITP and CP: LC-MSⁿ or GC-MSⁿ,n/a,n/a
+MANDATORY TEST METHODS – A. APPLICABLE TO ALL SAMPLES: IN- and OUT-OF-COMPETITION,S4. Hormone and Metabolic Modulators,S4.2 Anti-estrogenic Substances,Urine,ITP and CP: LC-MSⁿ or GC-MSⁿ,n/a,n/a
+MANDATORY TEST METHODS – A. APPLICABLE TO ALL SAMPLES: IN- and OUT-OF-COMPETITION,S4. Hormone and Metabolic Modulators,S4.4.1 Activators of the AMP-activated protein kinase (AMPK) and Peroxisome Proliferator Activated Receptor δ (PPARδ) agonists,Urine,ITP and CP: LC-MSⁿ or GC-MSⁿ,n/a,n/a
+MANDATORY TEST METHODS – A. APPLICABLE TO ALL SAMPLES: IN- and OUT-OF-COMPETITION,S4. Hormone and Metabolic Modulators,S4.4.3 Meldonium,Urine,ITP and CP: LC-MSⁿ,n/a,n/a
+MANDATORY TEST METHODS – A. APPLICABLE TO ALL SAMPLES: IN- and OUT-OF-COMPETITION,S4. Hormone and Metabolic Modulators,S4.4.4 Trimetazidine,Urine,ITP and CP: LC-MSⁿ or GC-MSⁿ,n/a,n/a
+MANDATORY TEST METHODS – A. APPLICABLE TO ALL SAMPLES: IN- and OUT-OF-COMPETITION,S5. Diuretics and Masking Agents,• Diuretics,Urine,ITP and CP: LC-MSⁿ or GC-MSⁿ,n/a,n/a
+MANDATORY TEST METHODS – A. APPLICABLE TO ALL SAMPLES: IN- and OUT-OF-COMPETITION,S5. Diuretics and Masking Agents,• Masking Agents,Urine,ITP and CP: LC-MSⁿ or GC-MSⁿ,n/a,Other plasma expanders
+MANDATORY TEST METHODS – A. APPLICABLE TO ALL SAMPLES: IN- and OUT-OF-COMPETITION,pH,,Urine,Electrochemistry pH strips,n/a,n/a
+MANDATORY TEST METHODS – A. APPLICABLE TO ALL SAMPLES: IN- and OUT-OF-COMPETITION,Specific Gravity (SG),,Urine,n/a,ITP: Densitometry; ITP and CP: Refractometry,n/a
+MANDATORY TEST METHODS – B. APPLICABLE TO IN-COMPETITION SAMPLES,S6. Stimulants,,Urine,"ITP and CP: LC-MSⁿ or GC-MSⁿ; Threshold Substances (ITP, CP) LC-MSⁿ, or GC-MSⁿ","Threshold Substances (CP) GC-NPD, or LC-MSⁿ, or GC-MSⁿ",n/a
+MANDATORY TEST METHODS – B. APPLICABLE TO IN-COMPETITION SAMPLES,S7. Narcotics,,Urine,"ITP and CP: LC-MSⁿ or GC-MSⁿ; Threshold Substances (ITP, CP) LC-MSⁿ or GC-MSⁿ",Threshold Substances CP) LC-MSⁿ or GC-MSⁿ,n/a
+MANDATORY TEST METHODS – B. APPLICABLE TO IN-COMPETITION SAMPLES,S8. Cannabinoids,,Urine,"ITP and CP: LC-MSⁿ or GC-MSⁿ; Threshold Substances (ITP, CP) LC-MSⁿ or GC-MSⁿ",Threshold Substances CP) LC-MSⁿ or GC-MSⁿ,n/a
+MANDATORY TEST METHODS – B. APPLICABLE TO IN-COMPETITION SAMPLES,S9. Glucocorticoids,,Urine,ITP and CP: LC-MSⁿ or GC-MSⁿ,n/a,n/a
+MANDATORY TEST METHODS – C. APPLICABLE TO SPECIFIC SPORTS,P1. Beta-blockers,,Urine,ITP and CP: LC-MSⁿ or GC-MSⁿ,n/a,n/a

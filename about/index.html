@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About – WADA reference library</title>
+<link rel="stylesheet" href="/wada-reference-library/assets/site.css">
+
+</head>
+<body data-base="/wada-reference-library" >
+<header class="top">
+  <div class="bar">
+    <a class="brand" href="/wada-reference-library/">WADA reference library</a>
+    <form class="searchform" action="/wada-reference-library/search/" role="search">
+      <input type="search" name="q" placeholder='Search words, "an exact phrase", or an article (ISL 5.3.6)' aria-label="Search">
+      <select name="scope" aria-label="Search scope">
+        <option value="current">All current documents</option>
+        <option value="all">All documents, all editions</option>
+      </select>
+      
+      <button type="submit">Search</button>
+    </form>
+  </div>
+  <nav class="picker" aria-label="Choose a document">
+    <label>Type <select id="pick-kind"></select></label>
+    <label>Document <select id="pick-doc"></select></label>
+    <label>Edition <select id="pick-ed"></select></label>
+    <a href="/wada-reference-library/all/">All documents</a>
+    <a href="/wada-reference-library/prohibited-list-table/">Prohibited List table</a>
+    <a href="/wada-reference-library/about/">About</a>
+  </nav>
+</header>
+<main>
+<h1>About this library</h1>
+<p>The texts were converted from the PDFs published by WADA and proofread against them. Each page states when and
+from which address on wada-ama.org its PDF was retrieved; for the current documents the PDF used was verified to be
+byte-identical to WADA's copy on that date. In case of doubt, consult the original PDF.</p>
+<h2>Editions</h2>
+<p>All editions are kept. The current edition is shown by default; the edition menu and the "Editions" line switch
+to earlier ones (the article you are reading is kept where it exists).</p>
+<h2>Cross-references</h2>
+<p>References to articles, annexes and other documents are links. A reference to another document points to the
+edition that was in force when the citing edition took effect, so earlier editions link to the texts valid at
+their time. Dotted links are references to the <em>Code</em> inferred from an article number alone. Defined terms
+link to their definition; "Cited by" lists the passages in other documents and editions that refer to an article.</p>
+<h2>Conventions</h2>
+<ul>
+  <li>"p. N" marks where a page of the PDF begins.</li>
+  <li>Tables are shown as tables and can be downloaded as CSV; figures and formulas are reproduced as images
+  or as typeset formulas.</li>
+  <li>Obvious errors in the PDFs are kept as printed.</li>
+</ul>
+</main>
+<footer class="foot">
+  <p>Unofficial reference copy of documents published by the World Anti-Doping Agency (WADA). The authoritative text is
+  always the PDF published by WADA on <a href="https://www.wada-ama.org">wada-ama.org</a>; every page links to it.
+  Built 26 November 2026.</p>
+</footer>
+<script src="/wada-reference-library/assets/site.js"></script>
+
+</body>
+</html>

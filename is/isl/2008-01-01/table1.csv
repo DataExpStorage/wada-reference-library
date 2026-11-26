@@ -1,0 +1,10 @@
+﻿Scoring,Prohibited Substances,False positive,25,Immediate Suspension
+Scoring,Prohibited Substances,False negative,10,Corrective Action Report
+Scoring,Threshold Substances,z-score > 3,10,Corrective Action Report
+Scoring,Threshold Substances,2 < z-score ≤ 3,5,Internal investigation
+Scoring,Sample Parameters,SG z-score > 3,1,Internal investigation
+Scoring,Sample Parameters,T/E z-score > 3,1,Internal investigation
+Scoring,Documentation*,Non-conformity,4,Corrective Action Report
+PT Evaluation,Point Total for single PT round,Point Total for single PT round,≥ 20,Suspension
+PT Evaluation,,,25 - 30,Warning
+PT Evaluation,Point Total per 12 month period,Point Total per 12 month period,≥ 30,Suspension or Revocation of accreditation

@@ -1,0 +1,17 @@
+﻿Confounding Factor,Prohibited Substance affected,Common Metabolic Pathway or Degradation Product,Relevant Target(s) (Analyte(s) that should be monitored by the Laboratory),MRPL (ng/mL),Normative Document
+Bicalutamide,Enobosarm (Ostarine),O-dephenyl-ostarine,Ostarine and/or Ostarine glucuronide,1,ISL TL12<sup>[14]</sup>
+Chlorphenesin,Meclofenoxate,4-chlorophenoxyacetic acid (4-CPA),Chlorphenesin (glucuronide and/or sulfate) 3-(4-Chlorophenoxy)-2- hydroxypropanoic acid (4-CPP),50,ISL TL01 [24]
+Chlorphenesin carbamate,Meclofenoxate,4-chlorophenoxyacetic acid (4-CPA),Chlorphenesin carbamate (glucuronide and/or sulfate) 4-CPP carbamate,50,ISL TL01 [24]
+Codeine (C),Morphine (M),C metabolizes into M,C + C-glucuronide,500,ISL TD DL<sup>[3]</sup>
+Ethylmorphine (EtM),Morphine (M),EtM metabolizes into M,EtM + EtM-glucuronide Nor-EtM + Nor-EtM-6-glucuronide,500 50,ISL TD DL<sup>[3]</sup>
+Flutamide,Andarine,"O-Dephenylandarine, O-Dephenylandarine glucuronide",Andarine and/or Andarine glucuronide and/or Desacetyl-hydroxy-Andarine and/or Andarine hydroxylated Metabolites and/or Andarine bishydroxylated Metabolites,1,ISL TL07<sup>[13]</sup>
+Hydrocodone (HC),Hydromorphone (HM),Metabolization of HC or C into HM,Hydrocodone Norhydrocodone,25,ISL TL15 [25]
+Lomerizine,Trimetazidine (TMZ),Lomerizine may metabolize into TMZ,Lomerizine 1-Bis-(4-fluorophenyl)-methylpiperazine,10,ISL TL13<sup>[21]</sup>
+Mebeverine,Amfetamine Selegiline Famprofazone,para-Hydroxy- amphetamine (p-OH-A).,Mebeverine acid Desmethyl mebeverine acid,50,ISL TL02 [26]
+Methylnaltrexone (MTNX),Oxymorphone,Oxymorphone as a degradation artifact of MTNX,Methylnaltrexone,50,ISL TD MRL<sup>[5]</sup>
+Morazone,Phenmetrazine,Phenmetrazine,Morazone,50,n/a
+Norethisterone,19-NA,19-NA is a minor Metabolite of norethisterone,"5β-Estran-17α-ethynyl-3α,17β-diol",2.5,ISL TD NA<sup>[12]</sup>
+O-desmethyl- venlafaxine,Tramadol,O-desmethyl- venlafaxine may interfere with tramadol detection under certain chromatographic conditions<sup>[27]</sup>,O-desmethyl-venlafaxine,"20,000 (i.e., 20 µg/mL)",ISL TD MRL<sup>[5]</sup>
+Oxethazaine,"Phentermine, Mephentermine",Phentermine and mephentermine as minor Metabolites of oxethazaine,β-hydroxyphentermine; and/or β-hydroxymephentermine,50,ISL TD MRL<sup>[5]</sup>
+Proguanil,Chlorazanil,"Proguanil is metabolized into N-(4- chlorophenyl)- biguanide, which is a chemical precursor of chlorazanil",N-(4-Chlorophenyl)-biguanide and either Proguanil or Cycloguanil,200,ISL TL06<sup>[22]</sup>
+Zearalenone,Zeranol and Metabolites: Zearalanone and Taleranol,Zeranol,Zearalenone α-Zearalenol β-Zearalenol,5,ISL TL04<sup>[16]</sup> ISL TL23<sup>[15]</sup>

@@ -1,0 +1,5 @@
+﻿Condition,Meclofenoxate,4-CPA,Chlorphenesin or chlorphenesin carbamate Metabolite(s)ᵃ,Report finding as
+1,> 50 ng/mL,ᵇ,N/A,AAF
+2A,≤ 50 ng/mL or Not Detected,≤ 5 µg/mL,N/A,Negative Finding
+2B,≤ 50 ng/mL or Not Detected,> 5 µg/mL,Detected,Negative Finding
+2C,≤ 50 ng/mL or Not Detected,> 5 µg/mL,Not Detected,AAF

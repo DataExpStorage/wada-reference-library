@@ -1,0 +1,847 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LABORATORY DOCUMENTATION PACKAGES – v1.0, 2021</title>
+<link rel="stylesheet" href="/wada-reference-library/assets/site.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css">
+
+</head>
+<body data-base="/wada-reference-library" data-kind="td" data-lineage="LDOC" data-url="/td/ldoc/2021-04-01/">
+<header class="top">
+  <div class="bar">
+    <a class="brand" href="/wada-reference-library/">WADA reference library</a>
+    <form class="searchform" action="/wada-reference-library/search/" role="search">
+      <input type="search" name="q" placeholder='Search words, "an exact phrase", or an article (ISL 5.3.6)' aria-label="Search">
+      <select name="scope" aria-label="Search scope">
+        <option value="edition">This document (this edition)</option>
+        <option value="document">This document, all editions</option>
+        <option value="current" selected>All current documents</option>
+        <option value="all">All documents, all editions</option>
+      </select>
+      <input type="hidden" name="lin" value="LDOC"><input type="hidden" name="ed" value="/td/ldoc/2021-04-01/">
+      <button type="submit">Search</button>
+    </form>
+  </div>
+  <nav class="picker" aria-label="Choose a document">
+    <label>Type <select id="pick-kind"></select></label>
+    <label>Document <select id="pick-doc"></select></label>
+    <label>Edition <select id="pick-ed"></select></label>
+    <a href="/wada-reference-library/all/">All documents</a>
+    <a href="/wada-reference-library/prohibited-list-table/">Prohibited List table</a>
+    <a href="/wada-reference-library/about/">About</a>
+  </nav>
+</header>
+<main>
+<div class="docwrap">
+<aside class="toc">
+  <details open><summary>Contents</summary>
+  <ol><li class="l2"><a href="#art-1">1.0 Introduction</a></li><li class="l3"><a href="#art-1.1">1.1 Production of Laboratory Documentation Packages by Laboratories</a></li><li class="l2"><a href="#art-2">2.0 Formatting Requirements</a></li><li class="l2"><a href="#art-3">3.0 Laboratory Documentation Requirements</a></li><li class="l3"><a href="#art-3.1">3.1 Cover Page</a></li><li class="l3"><a href="#art-3.2">3.2 Chain of Custody</a></li><li class="l3"><a href="#art-3.3">3.3 Analytical data</a></li><li class="l4"><a href="#art-3.3.1">3.3.1 Confirmation Procedure (CP) Data</a></li><li class="l4"><a href="#art-3.3.2">3.3.2 Additional Documentation for Quantitative CP Methods only</a></li><li class="l3"><a href="#art-3.4">3.4 Laboratory Test Report(s)</a></li><li class="l3"><a href="#art-3.5">3.5 Subcontracted Analysis</a></li><li class="l2"><a href="#annex-a">Annex A: Urine ABP</a></li><li class="l3"><a href="#annex-a-2">2.0 Urine ABP Laboratory Documentation Package Requirements</a></li><li class="l4"><a href="#annex-a-2.1">2.1 Cover Page</a></li><li class="l4"><a href="#annex-a-2.2">2.2 Chain of Custody</a></li><li class="l4"><a href="#annex-a-2.3">2.3 GC-MSⁿ Confirmation Procedure (CP) data</a></li><li class="l3"><a href="#annex-a-3">3.0 Urine ABP Laboratory Certificate of Analysis Requirements</a></li><li class="l4"><a href="#annex-a-3.1">3.1 Cover Page</a></li><li class="l4"><a href="#annex-a-3.2">3.2 ITP GC-MSⁿ Data</a></li><li class="l2"><a href="#annex-b">Annex B: GC/C/IRMS</a></li><li class="l3"><a href="#annex-b-2">2.0 Laboratory Documentation</a></li><li class="l4"><a href="#annex-b-2.1">2.1 Chain of Custody</a></li><li class="l4"><a href="#annex-b-2.2">2.2 Confirmation Procedure Analytical data</a></li><li class="l4"><a href="#annex-b-2.3">2.3 Laboratory Test Report(s)</a></li><li class="l2"><a href="#annex-c">Annex C: ERA</a></li><li class="l2"><a href="#annex-c-2">2.0 Laboratory Documentation</a></li><li class="l3"><a href="#annex-c-2.1">2.1 Chain of Custody</a></li><li class="l3"><a href="#annex-c-2.2">2.2 Analytical data</a></li><li class="l4"><a href="#annex-c-2.2.1">2.2.1 Initial Testing Procedure (ITP)</a></li><li class="l4"><a href="#annex-c-2.2.2">2.2.2 Confirmation Procedure (CP)</a></li><li class="l3"><a href="#annex-c-2.3">2.3 Laboratory Test Report(s)</a></li><li class="l3"><a href="#annex-c-2.4">2.4 Subcontracted Analysis</a></li><li class="l2"><a href="#annex-d">Annex D: hGH</a></li><li class="l2"><a href="#annex-d-2">2.0 Laboratory Documentation</a></li><li class="l3"><a href="#annex-d-2.1">2.1 Chain of Custody</a></li><li class="l3"><a href="#annex-d-2.2">2.2 CP Analytical Data</a></li><li class="l3"><a href="#annex-d-2.3">2.3 Laboratory Test Report(s)</a></li><li class="l3"><a href="#annex-d-2.4">2.4 Subcontracted Analysis</a></li><li class="l3"><a href="#annex-e-2">2.0 Blood ABP Laboratory Documentation Package Requirements</a></li><li class="l4"><a href="#annex-e-2.1">2.1 Cover Page</a></li><li class="l4"><a href="#annex-e-2.3">2.3 Chain of Custody</a></li><li class="l4"><a href="#annex-e-2.4">2.4 Analytical Data</a></li><li class="l2"><a href="#annex-d-3">3.0 Blood ABP Laboratory Certificate of Analysis Requirements</a></li><li class="l3"><a href="#annex-d-3.1">3.1 Cover Page</a></li><li class="l2"><a href="#annex-e">Annex E: Blood ABP</a></li><li class="l4"><a href="#annex-e-3.2">3.2 Original Sysmex Printout</a></li></ol>
+  </details>
+</aside>
+<article data-pagefind-body>
+  <span hidden data-pagefind-filter="lineage">LDOC</span>
+  <span hidden data-pagefind-filter="edition">/td/ldoc/2021-04-01/</span>
+  <span hidden data-pagefind-filter="status">superseded</span>
+  <span hidden data-pagefind-filter="type">Technical Documents</span>
+  <span hidden data-pagefind-meta="edition">v1.0, 2021</span>
+  <div class="doc-head" data-pagefind-ignore>
+    <p class="kind">Technical Documents · TD2021LDOC</p>
+    <p class="edition">Edition v1.0, 2021 (version 1.0) · effective 1 April 2021
+      · <span class="status s-superseded">superseded</span></p>
+    <p class="banner">This edition has been superseded. Current edition:
+      <a href="/wada-reference-library/td/ldoc/2023-10-01/" class="keephash">v1.1, 2023</a>.</p>
+    
+    <p class="prov">Retrieved on 25 November 2026 from <a href="https://www.wada-ama.org/sites/default/files/resources/files/td2021ldoc_final_eng_0.pdf" rel="noopener">https://www.wada-ama.org/sites/default/files/resources/files/td2021ldoc_final_eng_0.pdf</a></p>
+    <p class="eds">Editions:
+      <a href="/wada-reference-library/td/ldoc/2023-10-01/" class="keephash">v1.1, 2023</a> · <a href="/wada-reference-library/td/ldoc/2023-09-01/" class="keephash">v1.0, 2023</a> · <a href="/wada-reference-library/td/ldoc/2022-01-01/" class="keephash">v1.0, 2022</a> · <a href="/wada-reference-library/td/ldoc/2021-04-01/" class="keephash here">v1.0, 2021</a> · <a href="/wada-reference-library/td/ldoc/2019-11-04/" class="keephash">v1.0, 2019</a> · <a href="/wada-reference-library/td/ldoc/2017-11-15/" class="keephash">v2.0, 2017</a> · <a href="/wada-reference-library/td/ldoc/2017-05-01/" class="keephash">v1.0, 2017</a> · <a href="/wada-reference-library/td/ldoc/2009-01-01/" class="keephash">v1.0, 2009</a></p>
+    <p class="related">Related:
+      <a href="/wada-reference-library/summary/ldoc/td2021ldoc-summaryofmodifications-eng-0/">Summary of Modifications – TD2021LDOC</a> · <a href="/wada-reference-library/summary/ldoc/td2022ldoc-v1-0-summaryofmodifications/">Summary of Modifications – TD2022LDOC version 1.</a> · <a href="/wada-reference-library/summary/ldoc/td2023ldoc-summary-of-modifications-final-0/">TD2023LDOC Summary of Major Modifications</a> · <a href="/wada-reference-library/summary/ldoc/td2023ldoc-version-1-1-summary-of-modifications/">Summary of Modifications – TD2023LDOC v 1.1</a>
+      </p>
+  </div>
+  <div class="body">
+<p><span class="pg" id="p-1">p. 1</span></p>
+<h1>LABORATORY DOCUMENTATION PACKAGES</h1>
+<h2><a id="art-1"></a>1.0 Introduction</h2>
+<p>This <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-technical-document" title="Definition (Code 2021): Technical Document"><em>Technical Document</em></a> (<em>TD</em>) and its annexes outline the requirements for the production of Laboratory Documentation Packages by Laboratories and <em>ABP</em> Laboratories, as applicable.</p>
+<p>This <em>TD</em> includes instructions for producing Laboratory Documentation Packages for results from qualitative Test Methods (applied to Non-Threshold Substances) and quantitative Test Methods (applied to Threshold Substances and the determination of the <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-marker" title="Definition (Code 2021): Markers"><em>Markers</em></a> of the steroid profile), as well as for results of the analysis of <em>ABP</em> blood <em>Samples</em> (see <a class="xref" href="#annex-e" title="LDOC v1.0, 2021, Annex E">Annex E</a>).</p>
+<p>This <em>TD</em> also includes the following annexes which list additional documentation that is required for specific analyses:</p>
+<ul>
+<li><a class="xref" href="#annex-a" title="LDOC v1.0, 2021, Annex A">Annex A</a>: GC-MSⁿ for Urine <em>ABP</em> (applicable to the steroidal module of the <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-athlete-biological-passport" title="Definition (Code 2021): Athlete Biological Passport"><em>Athlete Biological Passport</em></a>);</li>
+<li><a class="xref" href="#annex-b" title="LDOC v1.0, 2021, Annex B">Annex B</a>: GC/C/IRMS (applicable to analyses by Gas Chromatography /Combustion/Isotope Ratio Mass Spectrometry);</li>
+<li><a class="xref" href="#annex-c" title="LDOC v1.0, 2021, Annex C">Annex C</a>: ERA (applicable to the analysis of EPO and other Erythropoietin Receptor Agonists (ERAs) using electrophoretic Analytical Methods);</li>
+<li><a class="xref" href="#annex-d" title="LDOC v1.0, 2021, Annex D">Annex D</a>: hGH (applicable to the analysis of human Growth Hormone);</li>
+<li><a class="xref" href="#annex-e" title="LDOC v1.0, 2021, Annex E">Annex E</a>: Blood <em>ABP</em> (applicable to the hematological module of the <em>Athlete Biological Passport</em>).</li>
+</ul>
+<h3><a id="art-1.1"></a>1.1 Production of Laboratory Documentation Packages by Laboratories</h3>
+<p>If requested by the <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-testing" title="Definition (Code 2021): Testing"><em>Testing</em></a> Authority (TA), <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-results-management" title="Definition (Code 2021): Results Management"><em>Results Management</em></a> Authority (RMA) or <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a>, Laboratory Documentation Packages shall be provided by the Laboratory that reported the results supporting an <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-adverse-analytical-finding" title="Definition (Code 2021): Adverse Analytical Finding"><em>Adverse Analytical Finding</em></a> (<em>AAF</em>) or <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-atypical-finding" title="Definition (Code 2021): Atypical Finding"><em>Atypical Finding</em></a> <em>(ATF)</em>. Laboratories are not required to produce a Laboratory Documentation Package for a <em>Sample</em> reported as a Negative Finding, unless requested by a hearing body or disciplinary panel as part of a <em>Results Management</em> process or Laboratory disciplinary proceedings.</p>
+<p><a id="comment-1.1"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> Athletes shall only make requests for a Laboratory Documentation Package through the relevant TA or RMA.]</p>
+</blockquote>
+<p>A Laboratory Documentation Package shall be comprised of the information outlined below to support the result of the Laboratory's analysis of the relevant <em>Sample</em>. Laboratory working documents, computer printouts, and similar documents may be in the native language of the Laboratory. The table of contents, <span class="pg" id="p-2">p. 2</span> summaries and any flowcharts explaining the sequence of steps in the process and any other explanatory portions of the Laboratory Documentation Packages shall be provided at least in English.</p>
+<p>The items outlined in this <em>TD</em> shall be the only information that the Laboratory includes in the Laboratory Documentation Package for the relevant analyses supporting the <em>AAF</em> or <em>ATF</em>. Therefore, the Laboratory is not required to provide any additional documentation, such as Standard Operating Procedures (SOP), general quality management documents (<em>e.g</em>., ISO compliance documents), validation or External Quality Assessment Scheme (EQAS) data or any other data or document, in hardcopy or electronic format, not specifically required by this <em>TD</em>.</p>
+<p>A Laboratory Documentation Package should be provided to the TA, RMA or <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> within the timelines stipulated in the <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-international-standard" title="Definition (Code 2021): International Standard"><em>International Standard</em></a> for Laboratories (ISL)<sup>[1]</sup>.</p>
+<p>Laboratory Documentation Packages may be requested for &quot;A&quot; and &quot;B&quot; <em>Samples,</em> including all split portions of the <em>Sample</em>. However, Laboratory documents applicable to both &quot;A&quot; and &quot;B&quot; <em>Samples</em> (<em>e.g.</em> <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-doping-control" title="Definition (Code 2021): Doping Control"><em>Doping Control</em></a> Form (DCF), <em>Sample</em> receipt documentation, etc.) need only be provided once in the Laboratory Documentation Packages.</p>
+<p>This <em>TD</em> sets forth formal requirements. Deviations from the requirements set forth herein shall not invalidate the <em>AAF</em>(s) or <em>ATF</em>(s).</p>
+<h2><a id="art-2"></a>2.0 Formatting Requirements</h2>
+<p>Laboratory Documentation Packages shall meet the following formatting requirements:</p>
+<ul>
+<li>A Table of Contents;</li>
+<li>Sequentially numbered pages;</li>
+<li>Presentation in a format that will allow proper review by relevant stakeholders such as clearly scanned documents, descriptors, etc. (annotations may be included by the Laboratory to assist interpretation);</li>
+<li>Information that appears on data and forms that refers to other <em>Samples</em> may be redacted by the Laboratory;</li>
+<li>Any adjustments to the records in the Laboratory Documentation Package shall be conducted as forensic corrections in accordance with ISO/IEC 17025;</li>
+<li>Data, charts, graphs, etc. shall be clearly described and presented. <em>[Comment: Descriptions may be provided in the Table of Contents, page headers, titles, etc.; data and chart details shall be legible.]</em></li>
+</ul>
+<p><span class="pg" id="p-3">p. 3</span></p>
+<h2><a id="art-3"></a>3.0 Laboratory Documentation Requirements</h2>
+<p>Laboratory Documentation Packages shall contain the following information:</p>
+<h3><a id="art-3.1"></a>3.1 Cover Page</h3>
+<ul>
+<li>Identification of the Laboratory preparing the Laboratory Documentation Package, including the relevant <em>Sample</em> code and whether it is an &quot;A&quot; or a &quot;B&quot; <em>Sample</em>;</li>
+<li>A signed statement by the Laboratory Director or authorized delegate certifying that the Laboratory Documentation Package contains authentic copies of original data and forms;</li>
+<li>A declaration specifying that the Laboratory Documentation Package shall be handled as confidential information, shall not be disclosed to third parties or be reproduced or forwarded unless written approval is obtained from the Laboratory;</li>
+<li>A statement certifying that the <em>Sample</em> was analyzed according to the relevant <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> rules in force (<em>e.g</em>. ISL, <em>TD</em>s);</li>
+<li>Any relevant comments.</li>
+</ul>
+<h3><a id="art-3.2"></a>3.2 Chain of Custody</h3>
+<ul>
+<li>List of Laboratory staff involved in the analysis of the <em>Sample</em>, including signatures and/or initials and position title(s);</li>
+</ul>
+<p><a id="comment-3.2"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> Each individual's complete signature/initials/name shall be provided to assist in the interpretation of the Laboratory Internal Chain of Custody documents.]</p>
+</blockquote>
+<ul>
+<li>The Laboratory version of the DCF related to the <em>Sample</em>. The <em>Sample's</em> external chain of custody form shall also be included if provided by the TA;</li>
+<li>The Laboratory's documentation of receipt of the <em>Sample</em>, including a declaration about any condition observed upon <em>Sample</em> receipt that may adversely impact the integrity of the <em>Sample</em> (in accordance with the ISL<sup>[1]</sup>);</li>
+<li>Documentation linking the <em>Sample</em> code (collection kit code) to the Laboratory identification code (if available);</li>
+<li>The relevant &quot;A&quot; and/or &quot;B&quot; <em>Sample</em> container Laboratory Internal Chain of Custody documentation (see <a class="xref doc" href="/wada-reference-library/td/lcoc/2021-04-01/" title="LCOC v1.0, 2021">TD LCOC</a><sup>[2]</sup>);</li>
+<li>Summary of the chain of custody which is supported by the Laboratory Internal Chain of Custody documentation provided.</li>
+</ul>
+<p><span class="pg" id="p-4">p. 4</span></p>
+<h3><a id="art-3.3"></a>3.3 Analytical data</h3>
+<h4><a id="art-3.3.1"></a>3.3.1 Confirmation Procedure (CP) Data</h4>
+<p>CP method details to be provided within the documentation:</p>
+<ul>
+<li>SOP title or identification code of the CP method applied;</li>
+<li>Instrument type/identification code;</li>
+<li>Description of the composition of each positive quality control (PQC) sample(s) analyzed in the same batch;</li>
+<li>The monitored ions/transitions in the method for identification of the target Analyte(s) (for GC-MSⁿ and/or LC-MSⁿ procedures);</li>
+<li>&quot;A&quot; and/or &quot;B&quot; <em>Sample</em> Laboratory Internal Chain of Custody documentation for the CP relevant to the storage and handling of the <em>Sample</em> container (if not provided under 3.2 above);</li>
+<li>CP Aliquot Laboratory Internal Chain of Custody documentation<sup>[2]</sup>;</li>
+<li>CP analytical instrument sequence file;</li>
+</ul>
+<p><a id="comment-3.3.1"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> A copy of the original file (preferably generated by the analytical instrument software), which demonstrates the identification and order of analysis of each Sample analyzed in the CP.]</p>
+</blockquote>
+<ul>
+<li>CP chromatographic and spectral data (for GC-MSⁿ and/or LC-MSⁿ procedures):
+<ul>
+<li>Positive QC sample(s);</li>
+<li>Negative QC sample(s); and</li>
+<li>Aliquot(s) analyzed to conclude the <em>AAF(s)</em>;</li>
+</ul>
+</li>
+</ul>
+<p><a id="comment-3.3.1_2"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> The Laboratory shall demonstrate that the CP data is traceable to the Laboratory Internal Chain of Custody documentation. CP data shall be copies of the original data which was evaluated by the Laboratory to support the conclusion of an AAF or ATF.]</p>
+</blockquote>
+<ul>
+<li>For GC-MSⁿ and/or LC-MSⁿ procedures, identification data demonstrating compliance with the <a class="xref doc" href="/wada-reference-library/td/idcr/2021-04-01/" title="IDCR v1.0, 2021">TD IDCR</a><sup>[3]</sup> including:
+<ul>
+<li>A summary table with relative abundances (RAs) of diagnostic ions, retention time (RT) data and relevant calculation results;</li>
+</ul>
+</li>
+</ul>
+<p><a id="comment-3.3.1_3"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> The Laboratory is not required to quantify or report a concentration for a Non-Threshold Substance<sup>[1]</sup>.]</p>
+</blockquote>
+<ul>
+<li>The applicable criteria utilized to identify the target Analyte(s) and report an <em>AAF or ATF</em>;</li>
+<li>The summary table shall include signed/initialed (or electronic signature/validated LIMS record) statements that the results meet the applicable criteria.</li>
+</ul>
+<p><a id="comment-3.3.1_4"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> For example, &quot;Pass/Fail&quot; as a statement of compliance with the relevant criteria.]</p>
+</blockquote>
+<ul>
+<li>Statement that there was no deviation from the CP SOP.</li>
+</ul>
+<p><span class="pg" id="p-5">p. 5</span></p>
+<p><a id="comment-3.3.1_5"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> If a deviation exists (e.g. a change in the split ratio or a dilution of the derivatized Sample due to Sample overload in the instrument; application of an additional cleanup step; or an explanation for the re-analysis of the Sample with a new Aliquot) then documentation of the deviation(s) from the written CPs shall be provided.]</p>
+</blockquote>
+<ul>
+<li>A signed and dated statement of acceptable performance based on the evaluation of the analytical instrument which was used to generate the <em>Sample</em>'s CP data.</li>
+</ul>
+<p><a id="comment-3.3.1_6"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> For example: &quot;Instrument [identification] meets performance criteria based on the Laboratory SOP and QC data&quot;. This statement shall be signed and dated by the operator performing the evaluation.]</p>
+</blockquote>
+<h4><a id="art-3.3.2"></a>3.3.2 Additional Documentation for Quantitative CP Methods only</h4>
+<p>A summary of the quantitative data for the Threshold Substance(s) (see <a class="xref doc" href="/wada-reference-library/td/dl/2021-04-01/" title="DL v1.0, 2021">TD DL</a><sup>[4]</sup> or applicable TD<sup>[5, 7-9]</sup> or Laboratory Guidelines<sup>[6]</sup>), including:</p>
+<p><a id="comment-3.3.2"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> For those Threshold Substances of exogenous origin, which are analyzed by chromatographic-mass spectrometric Analytical Methods, reporting requirements are specified in the <a class="xref doc" href="/wada-reference-library/td/dl/2021-04-01/" title="DL v1.0, 2021">TD DL</a><sup>[4]</sup>. For endogenous Threshold Substances (e.g. human Growth Hormone - hGH, human Chorionic Gonadotropin - hCG), these requirements are included in specific TDs or Laboratory Guidelines (<a class="xref doc" href="/wada-reference-library/td/gh/2021-04-01/" title="GH v1.0, 2021">TD GH</a><sup>[5]</sup>, Laboratory Guidelines on hGH Biomarkers Test<sup>[6]</sup> and <a class="xref" href="#annex-d" title="LDOC v1.0, 2021, Annex D">Annex D</a> of this TD for hGH; <a class="xref doc" href="/wada-reference-library/td/cg-lh/2021-04-01/" title="CG/LH v1.0, 2021">TD CG/LH</a> [7] for hCG). For other quantitative CP, such as GC-MSⁿ for the Markers of the urinary steroid profile or GC/C/IRMS analysis, details are provided in the <a class="xref doc" href="/wada-reference-library/td/usm/2021-04-01/" title="USM v1.0, 2021">TD EAAS</a><sup>[8]</sup> and <a class="xref doc" href="/wada-reference-library/td/irms/2019-03-01/" title="IRMS v1.0, 2019">TD IRMS</a><sup>[9]</sup> and in Annexes A and B, respectively, of this TD.]</p>
+</blockquote>
+<ul>
+<li>The calibration curve;</li>
+<li>The mean concentration (or ratio or score) from triplicate (3x) determinations as well as the individual concentrations determined for all the <em>Sample</em> Aliquots determined with appropriate units (as applicable);</li>
+<li>The nominal and measured concentrations of the QC sample(s) in addition to the acceptance criteria with a statement that the QC(s) test results pass the acceptance criteria;</li>
+<li>The Laboratory result for the Threshold Substance in the <em>Sample</em> (units), as the mean value from triplicate determinations;</li>
+<li>The confirmed Specific Gravity (SG). If an adjustment for SG is necessary (for SG &gt; 1.018), then the resulting adjusted <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-decision-limit" title="Definition (Code 2021): Decision Limit"><em>Decision Limit</em></a> (DL<sub>adj</sub>) shall be provided;</li>
+<li>The Measurement Uncertainty (MU) details:
+<ul>
+<li>A statement that the relative u<sub>c</sub> (%) for results at levels close to the Threshold does not exceed the maximum permissible relative u<sub>c</sub>_<sub>Max</sub>(%) in Table 1 of the <a class="xref doc" href="/wada-reference-library/td/dl/2021-04-01/" title="DL v1.0, 2021">TD DL</a><sup>[4]</sup> or applicable TD<sup>[5, 7-9]</sup> or Laboratory Guidelines<sup>[6]</sup>.</li>
+</ul>
+</li>
+</ul>
+<p><a id="comment-3.3.2_2"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> The summary table provided shall compile the necessary data and applicable criteria utilized to evaluate the quantitative results obtained for the target Analyte(s) in order to report an AAF or ATF.]</p>
+</blockquote>
+<p><span class="pg" id="p-6">p. 6</span></p>
+<h3><a id="art-3.4"></a>3.4 Laboratory Test Report(s)</h3>
+<p>Laboratory Documentation Packages shall include the Laboratory (<a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-adams" title="Definition (Code 2021): ADAMS"><em>ADAMS</em></a>) Test Report(s) including the relevant Laboratory Test Report(s) from the Laboratory which performed subcontracted analyses, if applicable.</p>
+<p><a id="comment-3.4"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> In the case of quantitative CPs, the ADAMS Test Report shall include details in compliance with the <a class="xref doc" href="/wada-reference-library/td/dl/2021-04-01/" title="DL v1.0, 2021">TD DL</a><sup>[4]</sup> or applicable TD<sup>[5, 7-9]</sup> or Laboratory Guidelines<sup>[6]</sup>.]</p>
+</blockquote>
+<h3><a id="art-3.5"></a>3.5 Subcontracted Analysis</h3>
+<p>If an <em>AAF</em> or an <em>ATF</em> resulted (in whole or in part) from a subcontracted analysis, then the subcontracted Laboratory shall provide the documentation (as described in this <em>TD</em>) to the Laboratory (which subcontracted the analysis and reported the result into <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-adams" title="Definition (Code 2021): ADAMS"><em>ADAMS</em></a>) for the preparation of the Laboratory Documentation Package for the TA, RMA or <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a>. The Laboratory Documentation Package shall clearly describe the steps conducted by each Laboratory.</p>
+<p><span class="pg" id="p-7">p. 7</span></p>
+<h2><a id="annex-a"></a>Annex A: Urine ABP</h2>
+<h2>WADA Technical Document - TD2021LDOC Annex A: Urine Steroidal Module of the ABP</h2>
+<p>Document Number: TD2021LDOC-<a class="xref" href="#annex-a" title="LDOC v1.0, 2021, Annex A">Annex A</a>: Urine <em>ABP</em></p>
+<p>Version Number:</p>
+<p><a id="annex-a-1"></a><strong>1.0</strong> Written by:</p>
+<p>Reviewed by:</p>
+<p>Date:</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Science</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Laboratory Expert Group</p>
+<p><a id="annex-a-21"></a><strong>21</strong> December 2020</p>
+<p>Approved by:</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Executive Committee</p>
+<p>Effective Date:</p>
+<p>1 April 2021</p>
+<h2>Urine LABORATORY DOCUMENTATION PACKAGE for the GC-MSⁿ CP of the Steroid Profile Markers</h2>
+<h2>and</h2>
+<h2>Urine LABORATORY CERTIFICATE OF ANALYSIS for the GC-MSⁿ ITP of the Steroid Profile Markers</h2>
+<p>The requirements of this Annex of the TD2021LDOC are relevant to Laboratories analyzing urine <em>Samples</em> in support of the steroidal module of the <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-athlete-biological-passport" title="Definition (Code 2021): Athlete Biological Passport"><em>Athlete Biological Passport</em></a> (<em>ABP</em>).</p>
+<p>This Annex of TD2021LDOC outlines the requirements for the production of a Urine Laboratory Documentation Package for the <em>ABP</em> or a Urine Laboratory Certificate of Analysis for the <em>ABP</em>. The Laboratory may be requested by the relevant <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-athlete" title="Definition (Code 2021): Athlete"><em>Athlete</em></a> Passport Management Unit (APMU), Expert Panel or <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> to provide these types of documentation to support an <em>Adverse Passport Finding (APF)</em>.</p>
+<p><a id="comment-1.0"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> Athletes shall only make requests for a Urine ABP Laboratory Documentation Package or a Urine ABP Laboratory Certificate of Analysis through the relevant Testing Authority or Results Management Authority.]</p>
+</blockquote>
+<p>It is only mandatory to have a Urine <em>ABP</em> Laboratory Documentation Package for those confirmed test results that are deemed essential by the APMU or Expert Panel. Laboratories are not required to produce a Urine <em>ABP</em> Laboratory Documentation Package for ITP results of a <em>Sample</em> that is judged to confirm the baseline level of a steroid <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-marker" title="Definition (Code 2021): Marker"><em>Marker</em></a> by an APMU or Expert Panel. In such case, Laboratories shall provide a Urine <em>ABP</em> Laboratory Certificate of Analysis, in accordance with the requirements indicated in <a class="xref" href="#art-3" title="LDOC v1.0, 2021, Article 3">Article 3</a> of this <em>TD</em> <a class="xref" href="#annex-a" title="LDOC v1.0, 2021, Annex A">Annex A</a>, upon request by an APMU or Expert Panel.</p>
+<p>Deviations from this <em>TD</em> <a class="xref" href="#annex-a" title="LDOC v1.0, 2021, Annex A">Annex A</a> shall not invalidate an <em>APF</em>.</p>
+<h2>1.0 Formatting Requirements</h2>
+<p>A Urine <em>ABP</em> Laboratory Documentation Package shall meet the formatting requirements as detailed in <a class="xref parent" href="#art-2" title="LDOC v1.0, 2021, Article 2.0">Article 2.0</a> of the TD2021LDOC.</p>
+<h3><a id="annex-a-2"></a>2.0 Urine ABP Laboratory Documentation Package Requirements</h3>
+<h4><a id="annex-a-2.1"></a>2.1 Cover Page</h4>
+<p>The cover page shall meet the requirements detailed in <a class="xref" href="#art-3.1" title="LDOC v1.0, 2021, Article 3.1">Article 3.1</a> of the TD2021LDOC.</p>
+<h4><a id="annex-a-2.2"></a>2.2 Chain of Custody</h4>
+<p>The chain of custody documentation shall meet the requirements detailed in <a class="xref" href="#art-3.2" title="LDOC v1.0, 2021, Article 3.2">Article 3.2</a> of the TD2021LDOC and the <a class="xref doc" href="/wada-reference-library/td/lcoc/2021-04-01/" title="LCOC v1.0, 2021">TD LCOC</a><sup>[2]</sup>.</p>
+<p><span class="pg" id="p-8">p. 8</span></p>
+<h2>WADA Technical Document - TD2021LDOC Annex A: Urine Steroidal Module of the ABP</h2>
+<p>Document Number: TD2021LDOC-<a class="xref" href="#annex-a" title="LDOC v1.0, 2021, Annex A">Annex A</a>: Urine <em>ABP</em></p>
+<p>Version Number:</p>
+<p>1.0 Written by:</p>
+<p>Reviewed by:</p>
+<p>Date:</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Science</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Laboratory Expert Group</p>
+<p>21 December 2020</p>
+<p>Approved by:</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Executive Committee</p>
+<p>Effective Date:</p>
+<p>1 April 2021</p>
+<h4><a id="annex-a-2.3"></a>2.3 GC-MSⁿ Confirmation Procedure (CP) data</h4>
+<ul>
+<li>A general description of the CP method details <em>(e.g.</em> scheme/sequence of key analysis steps), including:
+<ul>
+<li>Standard Operating Procedure (SOP) title or identification code of the CP method applied;</li>
+<li>Instrument type/Identification code;</li>
+<li>Description of quality control (QC) sample(s) analyzed in the same batch;</li>
+<li>The monitored ions/transitions in the method for identification of the target Analyte(s).</li>
+</ul>
+</li>
+<li>&quot;A&quot; and/or &quot;B&quot; <em>Sample</em> Laboratory Internal Chain of Custody documentation<sup>[2]</sup> for the CP, which is relevant to the storage and handling of the <em>Sample</em> container (if not provided under 2.2 above);</li>
+<li>CP Aliquot Laboratory Internal Chain of Custody documentation<sup>[2]</sup>;</li>
+<li>CP analytical instrument sequence file;</li>
+</ul>
+<p><a id="comment-2.3"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> A copy of the original sequence file (preferably generated by the analytical instrument software), which demonstrates the identification and order of analysis of each Sample analyzed in the Confirmation Procedure.]</p>
+</blockquote>
+<ul>
+<li><em>Sample</em> preparation details:
+<ul>
+<li>Data on controlling for efficiency of hydrolysis;</li>
+<li>Data on controlling for completeness of derivatization.</li>
+</ul>
+</li>
+<li>CP GC-MSⁿ chromatographic and spectral data:</li>
+</ul>
+<p><a id="comment-2.3_2"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> CP data shall be copies of the original data which were evaluated by the Laboratory to support the conclusion of an APF.]</p>
+</blockquote>
+<ul>
+<li>Calibration curve or concentrations of the calibration standards for all confirmed <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-marker" title="Definition (Code 2021): Markers"><em>Markers</em></a> of the steroid profile;</li>
+<li>Clearly integrated chromatograms for the relevant <em>Markers</em> of the steroid profile and their respective (deuterated) Internal Standards;</li>
+<li>Identification data of the chromatographic peaks of the relevant <em>Markers</em> demonstrating compliance with the <a class="xref doc" href="/wada-reference-library/td/idcr/2021-04-01/" title="IDCR v1.0, 2021">TD IDCR</a><sup>[3]</sup>, including:</li>
+<li>QC sample(s);</li>
+<li><em>Sample</em>;</li>
+<li>A summary table with relative abundances (RAs) of diagnostic ions, retention time (RT) data and relevant calculation results;</li>
+<li>The applicable criteria utilized to identify the target <em>Marker</em>(s);</li>
+</ul>
+<p><a id="comment-2.3_3"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> It is not necessary to perform the GC-MSⁿ confirmatory identification of the steroid Markers twice, both during the initial GC-MSⁿ confirmation and during the subsequent GC/C/IRMS analysis. However, the identification of the steroid Markers (i.e. target compounds) is still mandatory prior to reporting an Adverse</p>
+</blockquote>
+<p><span class="pg" id="p-9">p. 9</span></p>
+<h2>WADA Technical Document - TD2021LDOC Annex A: Urine Steroidal Module of the ABP</h2>
+<p>Analytical Finding (AAF) or an Atypical Finding (ATF) based on GC/C/IRMS results (see <a class="xref doc" href="/wada-reference-library/td/usm/2021-04-01/" title="USM v1.0, 2021">TD EAAS</a><sup>[8]</sup> and <a class="xref doc" href="/wada-reference-library/td/irms/2019-03-01/" title="IRMS v1.0, 2019">TD IRMS</a><sup>[9]</sup>). The confirmatory identification of the Markers during the initial confirmation by GC-MSⁿ becomes relevant when advancing an Adverse Passport Finding (APF) based on the altered values (concentrations, ratios) of the Markers without a corroborative positive GC/C/IRMS result).]</p>
+<ul>
+<li>The summary table shall include signed/initialed statements (or electronic signature/validated LIMS record) that the results meet the applicable criteria.</li>
+</ul>
+<p><a id="comment-2.3_4"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> For example, &quot;Pass/Fail&quot; as a statement of compliance with relevant criteria.]</p>
+</blockquote>
+<ul>
+<li>&quot;A&quot; <em>Sample</em> GC-MSⁿ (n ≥ 1) CP:
+<ul>
+<li>Confirmed SG of the &quot;A&quot; <em>Sample</em>;</li>
+<li>Confirmed values of the <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-marker" title="Definition (Code 2021): Markers"><em>Markers</em></a> of the steroid profile for:</li>
+</ul>
+</li>
+<li>QC sample(s); and</li>
+<li><em>Sample</em>;</li>
+</ul>
+<p><a id="comment-2.3_5"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> ADAMS printout of Sample record containing this information may be provided to address this requirement.</p>
+<p>In addition, the acceptance criteria for the concentrations of the Markers in the QC(s) shall be provided with a statement that the QC(s) test results pass the acceptance criteria.]</p>
+</blockquote>
+<ul>
+<li>The associated u<sub>c</sub> expressed in units;</li>
+<li>Statement that the associated u<sub>c</sub> (%) for the <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-marker" title="Definition (Code 2021): Markers"><em>Markers</em></a> of the steroid profile does not exceed the maximum permissible relative u<sub>c</sub>_<sub>Max</sub> (%) specified in the <a class="xref doc" href="/wada-reference-library/td/usm/2021-04-01/" title="USM v1.0, 2021">TD EAAS</a><sup>[8]</sup>;</li>
+<li>Confirmed values of:</li>
+<li>5α-androstanedione (5αAND) concentration; and/or</li>
+<li>5β-androstanedione (5βAND) concentration, and</li>
+<li>ratio of 5αAND/A; and/or</li>
+<li>ratio of 5βAND/Etio;</li>
+<li>ratio of T<sub>free</sub>/T<sub>total</sub>.</li>
+</ul>
+<p><a id="comment-2.3_6"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> the steroid ratios specified above shall be as determined from the respective steroid concentrations (and not as ratios of chromatographic peaks or areas).]</p>
+</blockquote>
+<ul>
+<li>Confirmation results about the presence/absence of substance(s) that may alter the steroid profile, including reporting the estimated concentrations of:</li>
+<li>ethyl-glucuronide (if ≥ 5 µg/mL),</li>
+<li>carboxy-finasteride (if ≥ 5 ng/mL),</li>
+<li>4-hydroxy- and/or 6-hydroxy-dustasteride (if ≥ 5 ng/mL),</li>
+<li>ketoconazole (if ≥ 100 ng/mL),</li>
+</ul>
+<p><span class="pg" id="p-10">p. 10</span></p>
+<h2>WADA Technical Document - TD2021LDOC Annex A: Urine Steroidal Module of the ABP</h2>
+<ul>
+<li>fluconazole (if ≥ 500 ng/mL), and</li>
+<li>miconazole (if ≥ 1,000 ng/mL).</li>
+<li>&quot;B&quot; <em>Sample</em> GC-MSⁿ (n ≥ 1) CP:
+<ul>
+<li>Confirmed SG of the &quot;B&quot; <em>Sample</em>;</li>
+<li>If the &quot;A&quot; <em>Sample</em> has not been reported as an <em>AAF</em> for the <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-marker" title="Definition (Code 2021): Marker"><em>Marker</em></a>(s) of the steroid profile based on the results of the GC/C/IRMS analysis, but the steroid profile CP by GC-MSⁿ has been requested for the &quot;B&quot; <em>Sample</em>, then the Laboratory shall include the results of the &quot;B&quot; GC-MS n confirmation of the steroid profile as described for the &quot;A&quot; <em>Sample</em>.</li>
+</ul>
+</li>
+<li>Statement that there was no deviation from the CP SOP.</li>
+</ul>
+<p><a id="comment-2.3_7"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> If a deviation exists (for example, a change in the split ratio or a dilution of the derivatized Sample due to Sample overload in the instrument; application of an additional cleanup step; or an explanation for the re-analysis of the Sample with a new Aliquot) then documentation of the deviation(s) from the written CPs shall be provided.]</p>
+</blockquote>
+<ul>
+<li>Statement of acceptable performance based on the evaluation of the analytical instrument which was used to generate the <em>Sample</em>'s CP data.</li>
+</ul>
+<p><a id="comment-2.3_8"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> For example: &quot;Instrument [identification] meets performance criteria based on the Laboratory SOP and QC data&quot;. This statement shall be signed and dated by the analyst performing the evaluation.]</p>
+</blockquote>
+<h3><a id="annex-a-3"></a>3.0 Urine ABP Laboratory Certificate of Analysis Requirements</h3>
+<p>A Urine <em>ABP</em> Laboratory Certificate of Analysis shall only contain the following information:</p>
+<h4><a id="annex-a-3.1"></a>3.1 Cover Page</h4>
+<p>A signed and dated document by the Laboratory Director or authorized delegate including:</p>
+<ul>
+<li>Identification of the Laboratory preparing the Urine <em>ABP</em> Laboratory Certificate of Analysis, including the relevant <em>Sample</em> code;</li>
+<li>A statement certifying that the Urine <em>ABP</em> Laboratory Certificate of Analysis contains authentic copies of original data and forms;</li>
+<li>A statement specifying that the Urine <em>ABP</em> Laboratory Certificate of Analysis shall be handled as confidential information, which shall not be disclosed to third parties and shall not be reproduced or forwarded unless written approval is obtained from the Laboratory;</li>
+<li>A statement certifying that the <em>Sample</em> was analyzed according to the relevant <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> rules in force (<em>e.g</em>. ISL, <em>TD</em>s);</li>
+<li>Any relevant comments.</li>
+</ul>
+<p><span class="pg" id="p-11">p. 11</span></p>
+<h4><a id="annex-a-3.2"></a>3.2 ITP GC-MSⁿ Data</h4>
+<p>The ITP GC-MSⁿ analysis of the <em>Sample</em> steroid profile, including</p>
+<ul>
+<li>SG of the &quot;A&quot; <em>Sample</em>;</li>
+<li>Chromatographic printout for all <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-marker" title="Definition (Code 2021): Markers"><em>Markers</em></a> of the steroid profile;</li>
+<li>The measured values of the <em>Markers</em> of the steroid profile;</li>
+<li>The associated u<sub>c</sub> expressed in units;</li>
+<li>The presence or absence in the <em>Sample</em> of substance(s) that may alter the steroid profile (see <a class="xref doc" href="/wada-reference-library/td/usm/2021-04-01/" title="USM v1.0, 2021">TD EAAS</a><sup>[8]</sup>);</li>
+<li><em>Sample</em> code;</li>
+<li>Analysis date and time;</li>
+<li>Instrument identification code.</li>
+</ul>
+<h2>WADA Technical Document - TD2021LDOC Annex A: Urine Steroidal Module of the ABP</h2>
+<p><span class="pg" id="p-12">p. 12</span></p>
+<h2><a id="annex-b"></a>Annex B: GC/C/IRMS</h2>
+<p>Document Number: TD2021LDOC-<a class="xref" href="#annex-b" title="LDOC v1.0, 2021, Annex B">Annex B</a>: GC/C/IRMS</p>
+<p>Version Number:</p>
+<p><a id="annex-b-1"></a><strong>1.0</strong> Written by:</p>
+<p>Reviewed by:</p>
+<p>Date:</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Science</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Laboratory Expert Group</p>
+<p><a id="annex-b-21"></a><strong>21</strong> December 2020</p>
+<p>Approved by:</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Executive Committee</p>
+<p>Effective Date:</p>
+<p>1 April 2021</p>
+<h2>LABORATORY DOCUMENTATION PACKAGE FOR GC/C/IRMS ANALYSIS</h2>
+<p>This Annex of the TD2021LDOC includes instructions for producing Laboratory Documentation Packages for confirmatory analysis results supporting an <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-adverse-analytical-finding" title="Definition (Code 2021): Adverse Analytical Finding"><em>Adverse Analytical Finding</em></a> (<em>AAF</em>) or an <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-atypical-finding" title="Definition (Code 2021): Atypical Finding"><em>Atypical Finding</em></a> (<em>ATF</em>) based on the application of Gas Chromatography/Combustion/Isotope Ratio Mass Spectrometry (GC/C/IRMS).</p>
+<h2>1.0 Formatting Requirements</h2>
+<p>A GC/C/IRMS Laboratory Documentation Package shall meet the formatting requirements detailed in <a class="xref parent" href="#art-2" title="LDOC v1.0, 2021, Article 2.0">Article 2.0</a> of the TD2021LDOC.</p>
+<h3><a id="annex-b-2"></a>2.0 Laboratory Documentation</h3>
+<h4><a id="annex-b-2.1"></a>2.1 Chain of Custody</h4>
+<p>The chain of custody documentation shall meet the requirements detailed in <a class="xref" href="#art-3.2" title="LDOC v1.0, 2021, Article 3.2">Article 3.2</a> of the TD2021LDOC and the <a class="xref doc" href="/wada-reference-library/td/lcoc/2021-04-01/" title="LCOC v1.0, 2021">TD LCOC</a><sup>[2]</sup>.</p>
+<h4><a id="annex-b-2.2"></a>2.2 Confirmation Procedure Analytical data</h4>
+<ul>
+<li>If an adjustment for SG is necessary (for SG &gt; 1.018)<sup>[9, 10]</sup>, then the SG of the <em>Sample</em> and the resulting adjusted concentration of the Target Compound shall be provided;</li>
+<li>Analysis description (e.g. scheme/sequence of key analysis steps);</li>
+<li><em>Sample</em> preparation:
+<ul>
+<li>Documentation demonstrating the order of sequence injection;</li>
+<li>Statement on the verification of retention time (RT) stability.</li>
+</ul>
+</li>
+<li>GC/C/IRMS analysis:
+<ul>
+<li>Data on CO₂ pulses stability test and statement on when the linearity signal was checked last;</li>
+<li>CP analytical instrument sequence file;</li>
+</ul>
+</li>
+</ul>
+<p><a id="comment-2.2"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> A copy of the file (preferably generated by the analytical instrument software) which demonstrates the order of analysis of each Sample in the CP.]</p>
+</blockquote>
+<ul>
+<li>GC/C/IRMS Test Results for relevant Target Compounds (TCs) (which produced the <em>AAF</em> or <em>ATF</em>) and Endogenous Reference Compounds (ERCs), including:</li>
+<li>Chromatograms with the integration and annotation of the peaks;</li>
+<li>δ¹³C values (before and after correction for acetylation, if applicable); and</li>
+<li>|∆δ¹³C|values.</li>
+</ul>
+<p><span class="pg" id="p-13">p. 13</span></p>
+<h2>These results shall be produced for:</h2>
+<ul>
+<li>
+<p>The Reference Material (RM);</p>
+</li>
+<li>
+<p>The acceptance criteria for the δ¹³C determinations of the TCs and ERCs in the RM shall be provided;</p>
+</li>
+<li>
+<p>It shall be stated whether the RM test results pass the acceptance criteria.</p>
+</li>
+<li>
+<p>The negative (QCN) and positive quality control (QCP) samples;</p>
+</li>
+<li>
+<p>The acceptance criteria for the δ¹³C determinations of the TCs and ERC in the QC samples shall be provided;</p>
+</li>
+<li>
+<p>It shall be stated whether the QC test results pass the acceptance criteria.</p>
+</li>
+<li>
+<p>The <em>Sample</em></p>
+</li>
+<li>
+<p>Summary of results: Worksheet with δ¹³C values, associated u<sub>c</sub> (expressed in ‰) and |∆δ¹³C|values for the relevant TCs and ERCs.</p>
+</li>
+</ul>
+<h2>· GC-MS analysis</h2>
+<ul>
+<li>
+<p>Mass spectrum of each relevant TC and ERC (average and not apex) in the <em>Sample</em> and a comparison with mass spectrum obtained from a reference preparation;</p>
+</li>
+<li>
+<p>Proof of identification of the peaks of the relevant TC(s) and ERCs in accordance with <a class="xref doc" href="/wada-reference-library/td/idcr/2021-04-01/" title="IDCR v1.0, 2021">TD IDCR</a><sup>[3]</sup> requirements;</p>
+</li>
+<li>
+<p>A summary table with RAs of diagnostic ions, RT data and relevant calculation results;</p>
+</li>
+<li>
+<p>The applicable criteria utilized to identify the target Analyte(s);</p>
+</li>
+<li>
+<p>The summary table shall include signed/initialed (or electronic signature/validated LIMS record) statements that the results meet the applicable criteria.</p>
+</li>
+</ul>
+<p><a id="comment-2.2_2"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> For example, &quot;Pass/Fail&quot; as a statement of compliance with the relevant criteria.]</p>
+</blockquote>
+<ul>
+<li>A statement about steroid peak purity.</li>
+<li>A statement on the criteria that were fulfilled, as per the <a class="xref doc" href="/wada-reference-library/td/irms/2019-03-01/" title="IRMS v1.0, 2019">TD IRMS</a><sup>[9]</sup>, to report an <em>AAF</em>.</li>
+</ul>
+<p><a id="comment-2.2_3"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> the <a class="xref doc" href="/wada-reference-library/td/irms/2019-03-01/" title="IRMS v1.0, 2019">TD IRMS</a> criteria to report an AAF may be found in the ADAMS Test Report.]</p>
+</blockquote>
+<ul>
+<li>Second Opinion (if requested).</li>
+</ul>
+<h4><a id="annex-b-2.3"></a>2.3 Laboratory Test Report(s)</h4>
+<p>The Test Report documentation as detailed in <a class="xref" href="#art-3.4" title="LDOC v1.0, 2021, Article 3.4">Article 3.4</a> of the TD2021LDOC and the <a class="xref doc" href="/wada-reference-library/td/irms/2019-03-01/" title="IRMS v1.0, 2019">TD IRMS</a><sup>[9]</sup>.</p>
+<p><a id="annex-b-2.4"></a><strong>2.4</strong> Subcontracted Analysis</p>
+<p>A subcontracted analysis shall meet the requirements detailed in <a class="xref" href="#art-3.5" title="LDOC v1.0, 2021, Article 3.5">Article 3.5</a> of the TD2021LDOC.</p>
+<p><span class="pg" id="p-14">p. 14</span></p>
+<h2><a id="annex-c"></a>Annex C: ERA</h2>
+<p>Document Number:</p>
+<p>TD2021LDOC-<a class="xref" href="#annex-c" title="LDOC v1.0, 2021, Annex C">Annex C</a>: ERA</p>
+<p>Version Number:</p>
+<p><a id="annex-c-1"></a><strong>1.0</strong> Written by:</p>
+<p>Reviewed by:</p>
+<p>Date:</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Science</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Laboratory Expert Group</p>
+<p><a id="annex-c-21"></a><strong>21</strong> December 2020</p>
+<p>Approved by:</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Executive Committee</p>
+<p>Effective Date:</p>
+<p>1 April 2021</p>
+<h2>LABORATORY DOCUMENTATION PACKAGE FOR ERA ANALYSIS BY ELECTROPHORETIC ANALYTICAL METHODS</h2>
+<p>This Annex of the TD2021LDOC includes instructions for producing Laboratory Documentation Packages for results supporting an <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-adverse-analytical-finding" title="Definition (Code 2021): Adverse Analytical Finding"><em>Adverse Analytical Finding</em></a> (<em>AAF</em>) or <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-atypical-finding" title="Definition (Code 2021): Atypical Finding"><em>Atypical Finding</em></a> (<em>ATF</em>) reported for Erythropoietin Receptor Agonists (ERAs) when using polyacrylamide gel electrophoretic (PAGE) Analytical Methods.</p>
+<p><a id="comment-1.0_2"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> Erythropoietin Receptor Agonists (ERAs), as defined in the Prohibited List, include erythropoietin and its analogs and mimetics. These substances were previously known by the name of Erythropoiesis Stimulating Agents (ESA). Their analysis is covered in the <a class="xref doc" href="/wada-reference-library/td/epo/2014-09-01/" title="EPO v1.0, 2014">TD EPO</a><sup>[11]</sup>.]</p>
+</blockquote>
+<h2>1.0 Formatting Requirements</h2>
+<p>An ERA Laboratory Documentation Package shall meet the formatting requirements as detailed in <a class="xref parent" href="#art-2" title="LDOC v1.0, 2021, Article 2.0">Article 2.0</a> of the TD2021LDOC.</p>
+<h2><a id="annex-c-2"></a>2.0 Laboratory Documentation</h2>
+<h3><a id="annex-c-2.1"></a>2.1 Chain of Custody</h3>
+<p>The chain of custody shall meet the requirements detailed in <a class="xref" href="#art-3.2" title="LDOC v1.0, 2021, Article 3.2">Article 3.2</a> of the TD2021LDOC and the <a class="xref doc" href="/wada-reference-library/td/lcoc/2021-04-01/" title="LCOC v1.0, 2021">TD LCOC</a><sup>[2]</sup>.</p>
+<h3><a id="annex-c-2.2"></a>2.2 Analytical data</h3>
+<h4><a id="annex-c-2.2.1"></a>2.2.1 Initial Testing Procedure (ITP)</h4>
+<p>Provision of the ITP data is optional (at the Laboratory's discretion):</p>
+<ul>
+<li>Test description</li>
+</ul>
+<p><a id="comment-2.2.1"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> For example, description of the key steps in the IEF-PAGE or SAR-/SDS-PAGE procedure, including method used for ERA immunopurification.]</p>
+</blockquote>
+<ul>
+<li><em>Sample</em> sequence description (content and lane position on the gel);</li>
+<li>ITP results including gel images and report (<em>e.g.</em> GASepo Analysis Report) on:
+<ul>
+<li>Negative control sample (QCN);</li>
+<li>Reference standard solutions used to define basic, acidic and endogenous areas in IEF-PAGE or apparent molecular mass in SAR-PAGE and SDS-PAGE;</li>
+<li>Test sensitivity controls (if applicable); and</li>
+<li>Sample Aliquot.</li>
+</ul>
+</li>
+</ul>
+<p><span class="pg" id="p-15">p. 15</span></p>
+<p>Document Number:</p>
+<p>TD2021LDOC-<a class="xref" href="#annex-c" title="LDOC v1.0, 2021, Annex C">Annex C</a>: ERA</p>
+<p>Version Number:</p>
+<p>1.0 Written by:</p>
+<p>Reviewed by:</p>
+<p>Date:</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Science</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Laboratory Expert Group</p>
+<p>21 December 2020</p>
+<p>Approved by:</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Executive Committee</p>
+<p>Effective Date:</p>
+<p>1 April 2021</p>
+<ul>
+<li>Statement on quality control, instrument operation and other test validity data.</li>
+</ul>
+<p><a id="comment-1.0_3"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> For example, &quot;The overall system performance is demonstrated by the quality control samples of the ITP. It is considered to be valid for the entire procedure&quot;.]</p>
+</blockquote>
+<ul>
+<li>Conclusion from ITP</li>
+</ul>
+<p><a id="comment-1.0_4"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> For example, &quot;The band in Sample x shows a faint, diffuse area above the corresponding endogenous band on the SAR-PAGE gel; therefore, the presence of recombinant EPO cannot be excluded. Consequently, this result is considered a Presumptive Adverse Analytical Finding and the Sample shall be subjected to a Confirmation Procedure&quot;.]</p>
+</blockquote>
+<h4><a id="annex-c-2.2.2"></a>2.2.2 Confirmation Procedure (CP)</h4>
+<ul>
+<li>Test Description</li>
+</ul>
+<p><a id="comment-2.2.2"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> For example, description of the key steps in the SAR-PAGE procedure, including method used for ERA immunopurification.]</p>
+</blockquote>
+<ul>
+<li><em>Sample</em> sequence description (content and lane position on the gel);</li>
+<li>Confirmation results including gel images and report (e.g. GASepo Analysis Report) on:
+<ul>
+<li>Negative control sample (QCN);</li>
+<li>Positive control sample(s) (QCP);</li>
+<li>Reference standard solution(s) used to define basic, acidic and endogenous areas in IEF-PAGE or apparent molecular mass in SDS-PAGE and SAR-PAGE;</li>
+<li>Test sensitivity control(s) (if applicable); and</li>
+<li><em>Sample</em> Aliquot.</li>
+</ul>
+</li>
+<li>Statement on quality control, instrument operation and other test validity data.</li>
+</ul>
+<p><a id="comment-2.2.2_2"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> For example, &quot;The overall system performance is demonstrated by the positive and negative control samples of the Confirmation Procedure. It is considered to be valid for the entire procedure&quot;.]</p>
+</blockquote>
+<ul>
+<li>Conclusion from CP.</li>
+</ul>
+<p><a id="comment-2.2.2_3"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> For example, &quot;The band in Sample x shows a faint, diffuse area above the corresponding band for endogenous EPO on the SAR-PAGE gel; therefore, the presence of recombinant EPO is confirmed according with the WADA <a class="xref doc" href="/wada-reference-library/td/epo/2014-09-01/" title="EPO v1.0, 2014">TD EPO</a><sup>[11]</sup>. Consequently, a second opinion for this Sample shall be requested&quot;.]</p>
+</blockquote>
+<ul>
+<li>Second Opinion (signed by a member of the <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> EPO Working Group (see <a class="xref doc" href="/wada-reference-library/td/epo/2014-09-01/" title="EPO v1.0, 2014">TD EPO</a><sup>[11]</sup>).</li>
+</ul>
+<h3><a id="annex-c-2.3"></a>2.3 Laboratory Test Report(s)</h3>
+<p>The Test Report documentation as detailed in <a class="xref" href="#art-3.4" title="LDOC v1.0, 2021, Article 3.4">Article 3.4</a> of the TD2021LDOC and the <a class="xref doc" href="/wada-reference-library/td/epo/2014-09-01/" title="EPO v1.0, 2014">TD EPO</a><sup>[11]</sup>.</p>
+<p><span class="pg" id="p-16">p. 16</span></p>
+<h3><a id="annex-c-2.4"></a>2.4 Subcontracted Analysis</h3>
+<p>A subcontracted analysis shall meet the requirements detailed in <a class="xref" href="#art-3.5" title="LDOC v1.0, 2021, Article 3.5">Article 3.5</a> of the TD2021LDOC.</p>
+<p><span class="pg" id="p-17">p. 17</span></p>
+<h2><a id="annex-d"></a>Annex D: hGH</h2>
+<p>Document Number: TD2021LDOC-<a class="xref" href="#annex-d" title="LDOC v1.0, 2021, Annex D">Annex D</a>: hGH</p>
+<p>Version Number:</p>
+<p><a id="annex-d-1"></a><strong>1.0</strong> Written by:</p>
+<p>Reviewed by:</p>
+<p>Date:</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Science</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Laboratory Expert Group</p>
+<p><a id="annex-d-21"></a><strong>21</strong> December 2020</p>
+<p>Approved by:</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Executive Committee</p>
+<p>Effective Date:</p>
+<p>1 April 2021</p>
+<h2>LABORATORY DOCUMENTATION PACKAGE FOR hGH ANALYSIS</h2>
+<p>This Annex of the TD2021LDOC includes instructions for producing Laboratory Documentation Packages for Confirmation Procedure (CP) results supporting an <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-adverse-analytical-finding" title="Definition (Code 2021): Adverse Analytical Finding"><em>Adverse Analytical Finding</em></a> (<em>AAF</em>) or an <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-atypical-finding" title="Definition (Code 2021): Atypical Finding"><em>Atypical Finding</em></a> (<em>ATF</em>) reported for human Growth Hormone (hGH).</p>
+<h2>1.0 Formatting Requirements</h2>
+<p>An hGH Laboratory Documentation Package shall meet the formatting requirements as detailed in <a class="xref parent" href="#art-2" title="LDOC v1.0, 2021, Article 2.0">Article 2.0</a> of the TD2021LDOC.</p>
+<h2><a id="annex-d-2"></a>2.0 Laboratory Documentation</h2>
+<h3><a id="annex-d-2.1"></a>2.1 Chain of Custody</h3>
+<p>The chain of custody documentation shall meet the requirements detailed in <a class="xref" href="#art-3.2" title="LDOC v1.0, 2021, Article 3.2">Article 3.2</a> of the TD2021LDOC and the <a class="xref doc" href="/wada-reference-library/td/lcoc/2021-04-01/" title="LCOC v1.0, 2021">TD LCOC</a><sup>[2]</sup>.</p>
+<h3><a id="annex-d-2.2"></a>2.2 CP Analytical Data</h3>
+<ul>
+<li>Summary test description, including
+<ul>
+<li>Scheme/sequence of key analysis steps;</li>
+<li>Kit lot numbers if applying the Isoforms Test;</li>
+<li>IGF-I and P-III-NP assay pairs and kit lot numbers if applying the Biomarkers Test.</li>
+</ul>
+</li>
+<li>Statement of acceptable performance based on the evaluation of the analytical instrument, which was used to generate the <em>Sample</em>'s CP data.</li>
+</ul>
+<p><a id="comment-2.2_4"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> For example: &quot;Instrument [identification] meets performance criteria based on the Laboratory SOP and QC data&quot;. This statement shall be signed and dated by the analyst performing the evaluation.]</p>
+</blockquote>
+<ul>
+<li>Assays' calibration curve;</li>
+<li>Sequence of analysis;</li>
+<li>Test data for negative (QCN) and positive quality control (QCP) sample(s) and <em>Sample,</em> including:
+<ul>
+<li>Isoforms Test<sup>[5]</sup></li>
+</ul>
+</li>
+<li>The REC and PIT concentrations, expressed to three (3) decimal places, for the three (3) <em>Sample</em> Aliquots analyzed using kit-1 and kit-2;</li>
+<li>The mean concentrations from the triplicate determinations expressed to three (3) decimal places;</li>
+<li>The Relative Standard Deviation (RSD, %) of the triplicate determinations;</li>
+</ul>
+<p><span class="pg" id="p-18">p. 18</span></p>
+<ul>
+<li>The resulting REC/PIT ratios (ratio-1; ratio-2), expressed to two (2) decimal places, calculated from the corresponding mean REC and PIT concentrations from the triplicate determinations;</li>
+<li>The applicable (kit, gender of the <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-athlete" title="Definition (Code 2021): Athlete"><em>Athlete</em></a>) <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-decision-limit" title="Definition (Code 2021): Decision Limit"><em>Decision Limit</em></a>(s) (<em>DL</em>); and</li>
+<li>The u<sub>c</sub> (%) at values close to the <em>DL</em> as determined by the Laboratory during method validation.
+<ul>
+<li>Biomarkers Test<sup>[6]</sup></li>
+</ul>
+</li>
+<li>The IGF-I and P-III-NP concentrations (expressed to the nearest integer for IGF-I and two decimal places for P-III-NP) for the three (3) <em>Sample</em> Aliquots analyzed with two (2) different IGF-I / P-III-NP assay pair combinations;</li>
+<li>The mean concentrations from the triplicate determinations (expressed to the nearest integer for IGF-I and two decimal places for P-III-NP);</li>
+</ul>
+<p><a id="comment-2.2_5"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> When the bottom-up LC-MS/MS or LC-HRMS method is used for IGF-I quantification during the CP, the Laboratory shall report the IGF-I concentrations (triplicate determinations, mean concentration) determined from the quantification of T1 and T2 peptides, as well as the calculated difference between these mean (T1, T2) concentrations. The Laboratory shall also report the average (overall) IGF-I concentration determined from the quantification of T1 and T2<sup>[6]</sup>.]</p>
+</blockquote>
+<ul>
+<li>The GH-2000 scores, expressed to two (2) decimal places, calculated from the natural logarithms (ln) of the mean concentrations (ng/mL) of IGF-I and P-III-NP;</li>
+</ul>
+<p><a id="comment-2.2_6"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> When the bottom-up LC-MS/MS or LC-HRMS method is used for IGF-I quantification during the CP, the GH-2000 score is calculated from the natural logarithm (ln) of the average (overall) concentration (ng/mL) of IGF-I determined from the quantification of T1 and T2<sup>[6]</sup>.]</p>
+</blockquote>
+<ul>
+<li>The <em>applicable</em> <em>DL</em>(s) (assay pair, gender of the <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-athlete" title="Definition (Code 2021): Athlete"><em>Athlete</em></a>); and</li>
+<li>The u<sub>c</sub> at values close to the <em>DL</em> as determined by the Laboratory during method validation.</li>
+<li>The acceptance criteria for the concentrations and ratios/scores of each QC sample, and a statement on whether the QC test results passed the acceptance criteria.</li>
+</ul>
+<h3><a id="annex-d-2.3"></a>2.3 Laboratory Test Report(s)</h3>
+<ul>
+<li>Laboratory Test Report from <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-adams" title="Definition (Code 2021): ADAMS,"><em>ADAMS,</em></a> including the conclusion from the CP;</li>
+</ul>
+<p>Example Isoforms Test<sup>[5]</sup>:</p>
+<p>&quot;The analysis of the <em>Sample</em> using the hGH differential immunoassays has produced the following analytical values of assay ratios: 2.52 for kit &quot;1&quot; and 2.40 for kit &quot;2&quot;, which are greater than the corresponding <em>DL</em>s of 1.84 and 1.91, respectively. The relative combined standard uncertainty (u<sub>c</sub>, %) estimated by the Laboratory at levels close to the <em>DL</em> is 15% for kit &quot;1&quot; and 17% for kit &quot;2&quot;. This constitutes an <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-adverse-analytical-finding" title="Definition (Code 2021): Adverse Analytical Finding"><em>Adverse Analytical Finding</em></a> for hGH&quot;.</p>
+<p><span class="pg" id="p-19">p. 19</span></p>
+<h2>Example Biomarkers Test<sup>[6]</sup>:</h2>
+<p>&quot;The analysis of the <em>Sample</em> with the hGH Biomarkers Test has produced the following GH-2000 scores: 10.90 for assay pair '1' [IDS IGF-I + Centaur P-III-NP] and 9.90 for assay pair '2' [LC-MS/MS IGF-I + Orion P-III-NP], which are greater than the corresponding male-specific <em>DL</em>s of 10.61 and 9.70, respectively. The combined standard uncertainty (u<sub>c</sub>) estimated by the Laboratory at levels close to the <em>DL</em> is 0.40 for assay pair '1' and 0.35 for assay pair '2'. This constitutes an <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-adverse-analytical-finding" title="Definition (Code 2021): Adverse Analytical Finding"><em>Adverse Analytical Finding</em></a> for hGH&quot;.</p>
+<ul>
+<li>Relevant Laboratory Test Report(s) from subcontracted analyses, if any.</li>
+</ul>
+<h3><a id="annex-d-2.4"></a>2.4 Subcontracted Analysis</h3>
+<p>A subcontracted analysis shall meet the requirements detailed in <a class="xref" href="#art-3.5" title="LDOC v1.0, 2021, Article 3.5">Article 3.5</a> of the TD2021LDOC.</p>
+<p><span class="pg" id="p-20">p. 20</span></p>
+<p>Document Number: TD2021LDOC-<a class="xref" href="#annex-e" title="LDOC v1.0, 2021, Annex E">Annex E</a>: Blood ABP</p>
+<p>Version Number:</p>
+<p><a id="annex-e-1"></a><strong>1.0</strong> Written by:</p>
+<p>Reviewed by:</p>
+<p>Date:</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Science</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Laboratory Expert Group</p>
+<p><a id="annex-e-21"></a><strong>21</strong> December 2020</p>
+<p>Approved by:</p>
+<p><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Executive Committee</p>
+<p>Effective Date:</p>
+<p>1 April 2021</p>
+<h2>Blood ABP LABORATORY DOCUMENTATION PACKAGE and Blood ABP LABORATORY CERTIFICATE OF ANALYSIS</h2>
+<p>The requirements of this Annex of the TD2021LDOC are relevant to <em>ABP</em> blood <em>Samples</em> analyzed in support of the hematological module of the <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-athlete-biological-passport" title="Definition (Code 2021): Athlete Biological Passport"><em>Athlete Biological Passport</em></a> (<em>ABP</em>).</p>
+<p>This <em>TD</em> Annex outlines the requirements for the production of a Blood <em>ABP</em> Laboratory Documentation Package or a Blood <em>ABP</em> Laboratory Certificate of Analysis. The Laboratory or <em>ABP</em> Laboratory may be requested by the relevant <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-athlete" title="Definition (Code 2021): Athlete"><em>Athlete</em></a> Passport Management Unit (APMU), Expert Panel or <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> to provide these types of documentation to support an <em>Adverse Passport Finding (APF).</em></p>
+<p><a id="comment-1.0_5"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> Athletes shall only make requests for a Blood ABP Laboratory Documentation Package or a Blood ABP Laboratory Certificate of Analysis through the relevant Testing Authority or Results Management Authority.]</p>
+</blockquote>
+<p>It is only mandatory to have a Blood <em>ABP</em> Laboratory Documentation Package for those test results that are deemed essential by the APMU or Expert Panel. Laboratories and <em>ABP</em> Laboratories are not required to produce a Blood <em>ABP</em> Laboratory Documentation Package for a <em>ABP</em> blood <em>Sample</em> that is judged to confirm the baseline level of a blood <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-marker" title="Definition (Code 2021): Marker"><em>Marker</em></a> by an APMU or Expert Panel. In such case, Laboratories and <em>ABP</em> Laboratories shall provide a Blood <em>ABP</em> Laboratory Certificate of Analysis in accordance with the requirements as indicated in <a class="xref parent" href="#art-3" title="LDOC v1.0, 2021, Article 3.0">Article 3.0</a> of this <em>TD</em> Annex, upon request by an APMU or Expert Panel.</p>
+<p>Deviations from this <em>TD</em> Annex shall not invalidate the blood <em>APF</em>.</p>
+<h2>1.0 Formatting Requirements</h2>
+<p>A Blood <em>ABP</em> Laboratory Documentation Package shall meet the formatting requirements as detailed in <a class="xref parent" href="#art-2" title="LDOC v1.0, 2021, Article 2.0">Article 2.0</a> of the TD2021LDOC.</p>
+<h3><a id="annex-e-2"></a>2.0 Blood ABP Laboratory Documentation Package Requirements</h3>
+<h4><a id="annex-e-2.1"></a>2.1 Cover Page</h4>
+<p>The cover page shall meet the requirements detailed in <a class="xref" href="#art-3.1" title="LDOC v1.0, 2021, Article 3.1">Article 3.1</a> of the TD2021LDOC.</p>
+<p>2.2. A copy of the <em>ABP</em> blood <em>Sample</em>'s temperature data logger report (if the report associated with the <em>ABP</em> blood <em>Sample</em> result is not submitted in <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-adams" title="Definition (Code 2021): ADAMS"><em>ADAMS</em></a>).</p>
+<h4><a id="annex-e-2.3"></a>2.3 Chain of Custody</h4>
+<p>The chain of custody documentation shall meet the requirements detailed in <a class="xref" href="#art-3.2" title="LDOC v1.0, 2021, Article 3.2">Article 3.2</a> of the TD2021LDOC and the <a class="xref doc" href="/wada-reference-library/td/lcoc/2021-04-01/" title="LCOC v1.0, 2021">TD LCOC</a><sup>[2]</sup>.</p>
+<p><span class="pg" id="p-21">p. 21</span></p>
+<h4><a id="annex-e-2.4"></a>2.4 Analytical Data</h4>
+<ul>
+<li>Original Sysmex printouts of all <em>ABP</em> blood <em>Sample</em> full blood count and scattergrams, including:
+<ul>
+<li><em>ABP</em> blood <em>Sample</em> code;</li>
+<li>Analysis date and time; and</li>
+<li>Instrument identification and serial number.</li>
+</ul>
+</li>
+<li><em>ABP</em> blood <em>Sample</em> and XN-checks (levels 1, 2 and 3) quality control (QC) results summary table, including:
+<ul>
+<li>Results of all <em>ABP</em> blood <em>Sample</em> analyses (minimum two);</li>
+<li>All XN-check QC levels from the same batch as the <em>ABP</em> blood <em>Sample</em>;</li>
+<li>Acceptance criteria; and</li>
+<li>Statements of acceptance.</li>
+</ul>
+</li>
+</ul>
+<p><a id="comment-2.4"></a></p>
+<blockquote>
+<p><strong>[Comment:</strong> The summary table provided shall compile the necessary data and applicable criteria as per the <a class="xref doc" href="/wada-reference-library/td/hem/2021-04-01/" title="HEM v1.0, 2021">TD BAR</a><sup>[12]</sup>.]</p>
+</blockquote>
+<ul>
+<li>XN-CHECK manufacturer assay sheets for each QC level; and</li>
+<li><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-adams" title="Definition (Code 2021): ADAMS"><em>ADAMS</em></a> record printout which contains:
+<ul>
+<li>Date and time of submission of the results into <em>ADAMS</em>;</li>
+<li>Date and time of <em>ABP</em> blood <em>Sample</em> reception;</li>
+<li>Date and time of <em>ABP</em> blood <em>Sample</em> analysis;</li>
+<li>Sport/discipline;</li>
+<li><a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-testing" title="Definition (Code 2021): Testing"><em>Testing</em></a> Authority (TA), <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-results-management" title="Definition (Code 2021): Results Management"><em>Results Management</em></a> Authority (RMA), <em>Sample</em> Collection Authority (SCA); and</li>
+<li>Reported test results for the blood <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-marker" title="Definition (Code 2021): Markers"><em>Markers</em></a> of the <em>ABP</em> blood <em>Sample</em>.</li>
+</ul>
+</li>
+</ul>
+<h2><a id="annex-d-3"></a>3.0 Blood ABP Laboratory Certificate of Analysis Requirements</h2>
+<p>A Blood <em>ABP</em> Laboratory Certificate of Analysis shall only contain the following information:</p>
+<h3><a id="annex-d-3.1"></a>3.1 Cover Page</h3>
+<p>A signed and dated document by the Laboratory Director or the Director of the <em>ABP</em> Laboratory or authorized delegate including:</p>
+<ul>
+<li>Identification of the Laboratory or the <em>ABP</em> Laboratory preparing the Blood <em>ABP</em> Laboratory Certificate of Analysis;</li>
+<li>The relevant <em>ABP</em> blood <em>Sample</em> code;</li>
+</ul>
+<p><span class="pg" id="p-22">p. 22</span></p>
+<h2><a id="annex-e"></a>Annex E: Blood ABP</h2>
+<ul>
+<li>A statement certifying that the Blood <em>ABP</em> Laboratory Certificate of Analysis contains authentic copies of original data and forms;</li>
+<li>A statement specifying that the Blood <em>ABP</em> Laboratory Certificate of Analysis shall be handled as confidential information which shall not be disclosed to third parties and shall not be reproduced or forwarded unless written approval is obtained from the Laboratory or the <em>ABP</em> Laboratory;</li>
+<li>A declaration certifying that the <em>ABP</em> blood <em>Sample</em> was analyzed according to the relevant <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> rules in force (<em>e.g</em>. ISL, <em>TD</em>s); and</li>
+<li>Any relevant comments.</li>
+</ul>
+<h4><a id="annex-e-3.2"></a>3.2 Original Sysmex Printout</h4>
+<p>The original instrument printouts of the accepted and reported <em>ABP</em> blood <em>Sample</em> analysis, including:</p>
+<ul>
+<li>Full blood count and scattergram;</li>
+<li><em>ABP</em> blood <em>Sample</em> code;</li>
+<li>Analysis date and time; and</li>
+<li>Instrument identification and serial number.</li>
+</ul>
+<p><span class="pg" id="p-23">p. 23</span></p>
+<h2>REFERENCES</h2>
+<p>[1] The World Anti-Doping <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-code" title="Definition (Code 2021): Code"><em>Code</em></a> <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-international-standard" title="Definition (Code 2021): International Standard"><em>International Standard</em></a> for Laboratories (ISL).</p>
+<p>[2] <em>WADA Technical Document</em> <a class="xref doc" href="/wada-reference-library/td/lcoc/2021-04-01/" title="LCOC v1.0, 2021">TD LCOC</a>: Laboratory Internal Chain of Custody.</p>
+<p>[3] <em>WADA Technical Document</em> <a class="xref doc" href="/wada-reference-library/td/idcr/2021-04-01/" title="IDCR v1.0, 2021">TD IDCR</a>: Minimum Criteria for Chromatographic-Mass Spectrometric Confirmation of the Identity of Analytes for <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-doping-control" title="Definition (Code 2021): Doping Control"><em>Doping Control</em></a> Purposes.</p>
+<p>[4] <em>WADA Technical Document</em> <a class="xref doc" href="/wada-reference-library/td/dl/2021-04-01/" title="DL v1.0, 2021">TD DL</a>: <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-decision-limit" title="Definition (Code 2021): Decision Limits"><em>Decision Limits</em></a> for the Confirmatory Quantification of Exogenous Threshold Substances by Chromatography-based Analytical Methods.</p>
+<p>[5] <em>WADA Technical Document</em> <a class="xref doc" href="/wada-reference-library/td/gh/2021-04-01/" title="GH v1.0, 2021">TD GH</a>: Human Growth Hormone (hGH) Isoform Differential Immunoassays for <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-doping-control" title="Definition (Code 2021): Doping Control"><em>Doping Control</em></a> Analyses.</p>
+<p>[6] <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-wada" title="Definition (Code 2021): WADA"><em>WADA</em></a> Laboratory Guidelines on human Growth Hormone Biomarkers Test for <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-doping-control" title="Definition (Code 2021): Doping Control"><em>Doping Control</em></a> Analyses.</p>
+<p>[7] <em>WADA Technical Document</em> <a class="xref doc" href="/wada-reference-library/td/cg-lh/2021-04-01/" title="CG/LH v1.0, 2021">TD CG/LH</a>: Reporting and Management of Urinary Chorionic Gonadotrophin (hCG) and Luteinizing Hormone (LH) Findings in Male <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-athlete" title="Definition (Code 2021): Athletes"><em>Athletes</em></a>.</p>
+<p>[8] <em>WADA Technical Document</em> <a class="xref doc" href="/wada-reference-library/td/usm/2021-04-01/" title="USM v1.0, 2021">TD EAAS</a>: Measurement and Reporting of Endogenous Anabolic Androgenic Steroid (EAAS) <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-marker" title="Definition (Code 2021): Markers"><em>Markers</em></a> of the Urinary Steroid Profile.</p>
+<p>[9] <em>WADA Technical Document</em> <a class="xref doc" href="/wada-reference-library/td/irms/2019-03-01/" title="IRMS v1.0, 2019">TD IRMS</a>: Detection of Synthetic Forms of <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-prohibited-substance" title="Definition (Code 2021): Prohibited Substances"><em>Prohibited Substances</em></a> by GC/C/IRMS.</p>
+<p>[10] <em>WADA Technical Document</em> <a class="xref doc" href="/wada-reference-library/td/na/2021-04-01/" title="NA v1.0, 2021">TD NA</a>: Harmonization of Analysis and Reporting of 19-Norsteroids Related to Nandrolone.</p>
+<p>[11] <em>WADA Technical Document</em> <a class="xref doc" href="/wada-reference-library/td/epo/2014-09-01/" title="EPO v1.0, 2014">TD EPO</a>: Harmonization of Analysis and Reporting of EPO and other Erythropoietin Receptor Agonists (ERAs) by Polyacrilamide Gel Electrophoretic (PAGE) Analytical Methods.</p>
+<p>[12] <em>WADA Technical Document</em> <a class="xref doc" href="/wada-reference-library/td/hem/2021-04-01/" title="HEM v1.0, 2021">TD BAR</a>: Blood Analytical Requirements <a class="defterm" href="/wada-reference-library/code/code/2021-01-01/#def-athlete-biological-passport" title="Definition (Code 2021): Athlete Biological Passport"><em>Athlete Biological Passport</em></a> Operating Guidelines &amp; Compilation of Required Elements.</p>
+<p>[Current versions of WADA ISL, Technical Documents and Laboratory Guidelines may be found at https://www.wada-ama.org/en/what-we-do/science-medical/laboratories ]</p>
+
+  </div>
+  <p class="prov bottom" data-pagefind-ignore>Retrieved on 25 November 2026 from <a href="https://www.wada-ama.org/sites/default/files/resources/files/td2021ldoc_final_eng_0.pdf" rel="noopener">https://www.wada-ama.org/sites/default/files/resources/files/td2021ldoc_final_eng_0.pdf</a></p>
+</article>
+</div>
+</main>
+<footer class="foot">
+  <p>Unofficial reference copy of documents published by the World Anti-Doping Agency (WADA). The authoritative text is
+  always the PDF published by WADA on <a href="https://www.wada-ama.org">wada-ama.org</a>; every page links to it.
+  Built 26 November 2026.</p>
+</footer>
+<script src="/wada-reference-library/assets/site.js"></script>
+
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/contrib/auto-render.min.js"
+  onload="renderMathInElement(document.querySelector('.body'), {delimiters:[{left:'\\[',right:'\\]',display:true}], throwOnError:false})"></script>
+
+</body>
+</html>

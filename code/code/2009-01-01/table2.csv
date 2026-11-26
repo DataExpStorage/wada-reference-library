@@ -1,0 +1,7 @@
+﻿Second Violation First Violation,RS,FFMT,NSF,St,AS,TRA
+RS,1-4,2-4,2-4,4-6,8-10,10-life
+FFMT,1-4,4-8,4-8,6-8,10-life,life
+NSF,1-4,4-8,4-8,6-8,10-life,life
+St,2-4,6-8,6-8,8-life,life,life
+AS,4-5,10-life,10-life,life,life,life
+TRA,8-life,life,life,life,life,life

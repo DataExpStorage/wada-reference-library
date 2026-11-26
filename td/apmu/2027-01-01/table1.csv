@@ -1,0 +1,5 @@
+﻿Module,Sample type,Primary Markers,Secondary Marker(s)
+Hematological,Whole blood,Hemoglobin (HGB) Reticulocyte percentage (RET%) OFF-score (OFFS),Abnormal Blood Profile Score (ABPS)
+Steroidal,Urine,"Testosterone to Epitestosterone ratio (T/E) 5α-Androstane-3α,17β-diol to Epitestosterone ratio (5αAdiol/E)","5α-Androstane-3α,17β-diol to 5β- Androstane-3α,17β-diol ratio (5αAdiol/5βAdiol) Androsterone to Etiocholanolone ratio (A/Etio)"
+Steroidal,Serum,"Testosterone (T) Testosterone to Androst-4-ene- 3,17-dione ratio (T/A4)",
+Endocrine,Serum,GH-2000 score Insulin-like growth factor-I (IGF-I),N-terminal pro-peptide of type III collagen (P-III-NP)

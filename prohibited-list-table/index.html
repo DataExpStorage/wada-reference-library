@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prohibited List 2027 table – WADA reference library</title>
+<link rel="stylesheet" href="/wada-reference-library/assets/site.css">
+
+</head>
+<body data-base="/wada-reference-library" data-pagefind-ignore="all">
+<header class="top">
+  <div class="bar">
+    <a class="brand" href="/wada-reference-library/">WADA reference library</a>
+    <form class="searchform" action="/wada-reference-library/search/" role="search">
+      <input type="search" name="q" placeholder='Search words, "an exact phrase", or an article (ISL 5.3.6)' aria-label="Search">
+      <select name="scope" aria-label="Search scope">
+        <option value="current">All current documents</option>
+        <option value="all">All documents, all editions</option>
+      </select>
+      
+      <button type="submit">Search</button>
+    </form>
+  </div>
+  <nav class="picker" aria-label="Choose a document">
+    <label>Type <select id="pick-kind"></select></label>
+    <label>Document <select id="pick-doc"></select></label>
+    <label>Edition <select id="pick-ed"></select></label>
+    <a href="/wada-reference-library/all/">All documents</a>
+    <a href="/wada-reference-library/prohibited-list-table/">Prohibited List table</a>
+    <a href="/wada-reference-library/about/">About</a>
+  </nav>
+</header>
+<main>
+<div class="pl">
+<h1>Prohibited List 2027 – substances, testing and limits</h1>
+<p class="intro">Every substance and method named in the <a href="/wada-reference-library/is/pl/2027-01-01/">2027 Prohibited List</a>, one row per
+matrix, with the analytical testing category from TD2027ATP, the MRPL, MRL and Decision Limit from the Technical Documents,
+and further requirements from the Technical Documents and Letters. <strong>Explicit</strong> = the TD names the substance;
+<em class="impl">implicit</em> = inherited from the substance's class or group. Unofficial reference table – the
+authoritative texts are WADA's PDFs; every value links to its source.</p>
+
+<details class="pl-help"><summary>How to read the table</summary>
+<ul>
+  <li><b>ATP category</b> (TD2027ATP): <i>Routine OOC and INC menu</i> – mandatory for all Samples (Table 1A);
+  <i>Routine INC menu</i> – mandatory for all In-Competition Samples (1B); <i>Routine menu – specific sports</i> (1C);
+  <i>Special analysis (all laboratories)</i> – additional mandatory ATP, applied on request or as a mandatory
+  confirmation (Table 2); <i>Special analysis (some laboratories)</i> – non-mandatory ATP (Table 3) or an exception
+  listed as not mandatory in Tables 1/2; <i>Not listed in TD ATP for this matrix</i> – no ATP for the matrix (for DBS
+  also: Table 3 footnote 9, DBS only for Non-Threshold Substances without MRL).</li>
+  <li><b>MRPL</b> from TD MRPL (urine, plasma/serum) and TD DBS (DBS); for S6–S9 the MRPL equals the MRL.
+  <b>MRL</b> from TD MRL; <b>Threshold/DL</b> from TD DL, TD CG/LH and TD GH.</li>
+  <li><b>TD/TL notes</b>: food or meat contamination, permitted medications, in-situ formation, interferences,
+  GC/C/IRMS, second opinions, sex-specific rules, ATF investigations – open a row for the details and links.</li>
+  <li>Rows marked <i>TD ATP group</i> (e.g. steroid esters, ITPP, cDNA transfer, siRNA, homologous blood transfusion,
+  Sample substitution/adulteration) and <i>TD ATP marker</i> (ABP Steroidal, Endocrine and Hematological modules, DEHP
+  phthalates) are named in TD2027ATP but not in the List; they are shown for clarity.</li>
+  <li>The List is not exhaustive ("including, but not limited to"): a substance missing here can still be prohibited.</li>
+</ul></details>
+
+<form class="pl-filters" onsubmit="return false">
+  <input type="search" id="pl-q" placeholder="Substance, alias or code (e.g. ostarine, 19-NA, GW1516)" aria-label="Search substances">
+  <select id="pl-class" aria-label="Class"><option value="">All classes</option></select>
+  <select id="pl-proh" aria-label="Prohibited"><option value="">Prohibited: any</option></select>
+  <select id="pl-matrix" aria-label="Matrix"><option value="">All matrices</option></select>
+  <select id="pl-atp" aria-label="ATP category"><option value="">All ATP categories</option></select>
+  <select id="pl-basis" aria-label="ATP basis"><option value="">explicit + implicit</option><option value="explicit">ATP explicit</option><option value="implicit">ATP implicit</option></select>
+  <select id="pl-limit" aria-label="Limits"><option value="">Any limits</option><option value="mrpl">has MRPL</option><option value="mrl">has MRL</option><option value="dl">has Threshold/DL</option></select>
+  <select id="pl-tag" aria-label="TD/TL topic"><option value="">Any TD/TL topic</option></select>
+  <label class="pl-chk"><input type="checkbox" id="pl-np"> show not-prohibited List entries (24)</label>
+  <button type="button" id="pl-reset">Reset</button>
+</form>
+<p class="muted" id="pl-count"></p>
+<div class="tablewrap pl-wrap"><table class="pl-table" id="pl-table">
+  <thead><tr><th>Substance</th><th>Class</th><th>Prohibited</th><th>Matrix</th><th>ATP category</th><th>Analysis</th>
+  <th>MRPL</th><th>MRL</th><th>Threshold / DL</th><th>TD/TL notes</th></tr></thead>
+  <tbody></tbody>
+</table></div>
+<p><button type="button" id="pl-more" hidden>Show more rows</button></p>
+
+<p class="muted">411 prohibited substances and methods, 743 substance × matrix rows. Built 26 November 2026.</p>
+</div>
+</main>
+<footer class="foot">
+  <p>Unofficial reference copy of documents published by the World Anti-Doping Agency (WADA). The authoritative text is
+  always the PDF published by WADA on <a href="https://www.wada-ama.org">wada-ama.org</a>; every page links to it.
+  Built 26 November 2026.</p>
+</footer>
+<script src="/wada-reference-library/assets/site.js"></script>
+<script src="/wada-reference-library/assets/pltable.js"></script>
+</body>
+</html>

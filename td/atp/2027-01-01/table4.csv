@@ -1,0 +1,14 @@
+﻿Prohibited Substances and Prohibited Methods Class,Approved Matrix,Analytical Methodᵃ
+S1.1 (Blood and Urine) Markers of the Steroidal Module of the ABP,Urine Serum,GC-MSⁿ LC-MSⁿ
+S2.1.1 Erythropoietin Receptor Agonists (ERAs),Urine Plasma Serum DBSᵇ,"PAGE methods (IEF-PAGE, SDS-PAGE, SAR-PAGE) or LC-MSⁿ"
+S2.2.1 Intact Human Chorionic Gonadotrophin (hCG),Urine,"LC-MSⁿ, Immunoassay"
+S2.2.1 Luteinizing Hormone (LH),Urine,Immunoassay
+S2.2.3 Human Growth Hormone (hGH) Isoforms,Serum,Isoforms Differential Immunoassays
+S2.2.3 Blood Markers of the Endocrine Module of the ABP IGF-I & P-III-NP,Serum,LC-MSⁿ (top-down) for IGF-I Siemens Centaur Immunoassay for P-III-NP
+"Large peptides e.g., S2.2.4 GHRH analogues, S2.3 IGF-I analogues S4.4.2 Insulins",Urine Plasma Serum DBSᵇ,LC-MSⁿ
+Relevant classesᶜ: Determination of origin by GC/C/IRMS,Urine,GC/C/IRMS
+Relevant classesᶜ: Confirmation of Threshold Substances by Quantitative Procedure,Urine,"GC-MSⁿ , LC-MSⁿ, GC-NPD"
+M1. Homologous Blood Transfusion (HBT),Whole Blood,Flow cytometry
+M1. Markers of the Hematological Module of the ABP,Whole Blood,Flow cytometry
+M1. Haemoglobin-based Oxygen Carriers (HBOCs),Plasma Serum,Native-PAGE
+M3. Gene and Cell Doping,Whole Blood DBSᵇ,PCR based methods

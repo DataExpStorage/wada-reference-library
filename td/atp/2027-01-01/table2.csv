@@ -1,0 +1,9 @@
+﻿Prohibited Substance Class,Prohibited Substance Subclass / Specific Examples,Matrix,"Test Method(s)<sup>1, 2, 3</sup>: Qualitative Procedure","Test Method(s)<sup>1, 2, 3</sup>: Quantitative Procedure",Exceptions (not mandatory) *
+S1. Anabolic Agents,S1.1 Anabolic Androgenic Steroids (AAS) • Urinary Markers of the Steroidal Module of the ABP,Urine,n/a,CP: GC/C/IRMS⁵,n/a
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics","S2.1.1 Erythropoietin Receptor Agonists (ERAs)⁵ • Recombinant EPOs, NESP, CERA, EPO-Fc.",Urine Plasma Serum,ITP and CP: PAGE Method<sup>[12]</sup>,n/a,"EPO-mimetic agents (e.g., CNTO-530, Peginesatide)"
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics","S2.2.1 GnRH<sup>*,8</sup> and its agonist analogues",Urine,ITP and CP: LC-MSⁿ,n/a,n/a
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics",S2.2.3 Growth Hormone • hGH Isoforms Test⁵,Serum,n/a,Immunoassay,n/a
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics","S2.2.3 Growth Hormone Fragments (AOD-9604, hGH 176-191) *",Urine,ITP and CP: LC-MSⁿ,n/a,n/a
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics",S2.2.4 Growth Hormone Releasing Factors Growth Hormone Secretagogues (GHS) and Growth Hormone Releasing Peptides (GHRPs) *,Urine,ITP and CP: LC-MSⁿ,n/a,n/a
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics",S2.3 Growth Factors and Growth Factor Modulators TB-500 *,Urine,ITP and CP: LC-MSⁿ,n/a,n/a
+S5. Diuretics and Masking Agents,"Masking Agent(s) • Desmopressin *, Felypressin *",Urine,ITP and CP: LC-MSⁿ or GC-MSⁿ,n/a,n/a

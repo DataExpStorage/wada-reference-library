@@ -1,0 +1,41 @@
+﻿Prohibited Class,Substance (Specific Exemptions),MRPL (ng/mL),Comments
+S0. Non-Approved Substances,BPC-157,20,
+S0. Non-Approved Substances,"2,4-Dinitrophenol",20,
+S0. Non-Approved Substances,Ryanodine receptor-1-calstabin complex stabilizers (Rycals),20,"e.g., S-107, S48168 (ARM210), JTV-519, ARM036."
+S0. Non-Approved Substances,Troponin Activators,20,"e.g., Reldesemtiv, Tirasemtiv."
+S1.1 Anabolic Androgenic Steroids,,2.5,"Refer also to ISL TL08<sup>[7]</sup> , ISL TL10<sup>[8]</sup> and ISL TL20 [9] ."
+S1.1 Anabolic Androgenic Steroids,4α-chloro-18-nor-17β-hydroxymethyl-17α-methyl-5α- androst-13-en-3α-ol,0.4,Long-term Metabolite (LTM) of dehydrochlormethyltestosterone (DHCMT) and other related precursor steroids.
+S1.1 Anabolic Androgenic Steroids,6α-hydroxy-androstenedione (6α-OH-AD),10,"Refer to TD MRL<sup>[2]</sup> , ISL TD IRMS<sup>[10]</sup> , ISL TL21<sup>[11]</sup> ."
+S1.1 Anabolic Androgenic Steroids,"17β-hydroxymethyl-17α-methyl-18-nor-androst-1,4,13-trien- 3-one",1,LTM of metandienone.
+S1.1 Anabolic Androgenic Steroids,"19-norandrosterone (19-NA), 19-noretiocholanolone (19-NE)",2.5,Refer to the ISL TD MRL<sup>[5]</sup> and ISL TD NA<sup>[12]</sup> .
+S1.1 Anabolic Androgenic Steroids,Boldenone,2.5,Refer to ISL TD MRL<sup>[5]</sup> and ISL TD IRMS<sup>[10]</sup> .
+S1.1 Anabolic Androgenic Steroids,Stanozolol,1,
+S1.2 Other Anabolic Agents,,1,"· For andarine, refer to ISL TL07<sup>[13]</sup> . · For enobosarm (ostarine), refer to ISLTL12<sup>[14]</sup> ."
+S1.2 Other Anabolic Agents,Clenbuterol,0.2,"· Refer to ISL TD MRL<sup>[5]</sup> and ISL TL23<sup>[15]</sup> . · For zeranol, refer also to ISL TL04<sup>[16]</sup> ."
+S1.2 Other Anabolic Agents,"Ractopamine, zeranol, zilpaterol",1,"· Refer to ISL TD MRL<sup>[5]</sup> and ISL TL23<sup>[15]</sup> . · For zeranol, refer also to ISL TL04<sup>[16]</sup> ."
+S2.1.1 Erythropoietin-Receptor Agonists (ERAs),,,Refer to ISL TD EPO<sup>[17]</sup> .
+S2.1.2 HIF Activating Agents,,2,
+S2.2.1 Gonadotrophin (CG/LH) Releasing Factors,,2,
+"S2.2.3 Growth Hormone (GH), its Analogues and Fragments",GH Fragments,2,
+S2.2.4 Growth Hormone Releasing Factors,GH-Releasing Hormone (GHRH) and its Analogues,1 Urine 0.3 Plasma / Serum,
+S2.2.4 Growth Hormone Releasing Factors,GH Secretagogues (GHS) and its Mimetics,2,
+S2.2.4 Growth Hormone Releasing Factors,GH-Releasing Peptides (GHRPs),1,
+S2.3 Growth Factors and Growth Factor Modulators,IGF-I analogues,0.3 Urine 2 Plasma / Serum,
+S2.3 Growth Factors and Growth Factor Modulators,TB-500 (N-Ac LKKTETQ),2,
+S3. Beta-2 Agonists,,20,"· For formoterol and salbutamol, which are Threshold Substances, refer to ISL TD DL<sup>[3]</sup> . · For higenamine, salmeterol, tretoquinol and vilanterol, which are Non-Threshold Substances subject to MRL, see ISL TD MRL<sup>[5]</sup> . · For tulobuterol, refer to ISL TL17<sup>[18]</sup> ."
+S4.1 Aromatase Inhibitors,,20,"· For 6-oxo, refer to ISL TL21<sup>[11]</sup> . · For testolactone, refer to ISL TL18<sup>[19]</sup> . · For other aromatase inhibitors, refer to ISL TL20 [9]"
+S4.1 Aromatase Inhibitors,Formestane,50,Refer to ISL TD MRL<sup>[5]</sup> and ISL TD IRMS<sup>[10]</sup> .
+S4.2 Anti-estrogenic Substances and SERMS,,20,
+S4.2 Anti-estrogenic Substances and SERMS,Clomifene,2,Refer to ISL TD MRL<sup>[5]</sup> and ISL TL26<sup>[20]</sup> .
+S4.4 Metabolic Modulators,,10,"For trimetazidine, refer to ISL TL13<sup>[21]</sup> ."
+S4.4 Metabolic Modulators,GW1516 and GW0742,2,
+S4.4 Metabolic Modulators,Insulins,0.05 Urine 0.3 Plasma / Serum,
+S4.4 Metabolic Modulators,Meldonium,100,Refer to ISL TD MRL<sup>[5]</sup>
+S5. Diuretics and Masking Agents,Diuretics,200,"For chlorazanil, refer to ISL TL06<sup>[22]</sup> ."
+S5. Diuretics and Masking Agents,"Acetazolamide, bumetanide, furosemide, hydrochlorothiazide, torasemide, triamterene",20,Refer to ISL TD MRL<sup>[5]</sup> and ISL TL24<sup>[23]</sup> .
+S5. Diuretics and Masking Agents,Masking Agents,200,
+S5. Diuretics and Masking Agents,Desmopressin and analogs,2,
+S5. Diuretics and Masking Agents,HES,200 000 (200 µg/mL),
+"M1.2 Artificially Enhancing the Uptake, Transport or Delivery of Oxygen",Efaproxiral (RSR13),10,
+S6. Stimulants S7. Narcotics S8. Cannabinoids S9. Glucocorticoids,,"All Prohibited Substances within these classes are prohibited In-Competition only. Therefore, specific MRLs apply, and the MRPL equals the corresponding MRL value - See ISL TD MRL<sup>[5]</sup> For methylephedrine, ephedrine, canthine, pseudoephedrine, morphine and carboxy-THC, which are Threshold Substances, refer to ISL TD DL<sup>[3]</sup> .","All Prohibited Substances within these classes are prohibited In-Competition only. Therefore, specific MRLs apply, and the MRPL equals the corresponding MRL value - See ISL TD MRL<sup>[5]</sup> For methylephedrine, ephedrine, canthine, pseudoephedrine, morphine and carboxy-THC, which are Threshold Substances, refer to ISL TD DL<sup>[3]</sup> ."
+P1. Beta-Blockers,,50,"Beta-blockers are Non-Threshold Substances prohibited at all times<sup>[8]</sup> and shall be reported if their presence is confirmed in a Sample at any concentration (in compliance with the identification criteria established in the ISL TD IDCR<sup>[2]</sup> ). However, an MRL for beta-blockers is applied in those sports where the substance is prohibited In- Competition only. Refer to the ISL TD MRL<sup>[5]</sup> and Prohibited List<sup>[8]</sup> ."

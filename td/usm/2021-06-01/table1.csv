@@ -1,0 +1,4 @@
+﻿Type of Marker,Steroid Profile Markers,Determination
+Concentrations of Steroids,"Androsterone (A); Etiocholanolone (Etio); 5α-Androstane-3α,17β-diol (5αAdiol); 5β-Androstane-3α,17β-diol (5βAdiol); Testosterone (T); and Epitestosterone (E).",Determined by the Laboratory by GC-MSⁿ from the combination of the free steroid fraction and the conjugated fraction released after hydrolysis with β-glucuronidase from E. coli.
+Ratios of Steroids,T/E,As reported by the Laboratory in ADAMS.
+Ratios of Steroids,A/T; A/Etio; 5αAdiol/5βAdiol; and 5αAdiol/E,Automatically computed in ADAMS from respective steroid concentrations after the reporting of the steroid profile by the Laboratory.

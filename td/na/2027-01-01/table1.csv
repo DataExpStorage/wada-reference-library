@@ -1,0 +1,7 @@
+﻿GC/C/IRMS analysis,Estimated concentration,Samples
+Not needed,"> 15 ng/mL<sup>2, 3</sup> (AAF)","Males; Females – Non-pregnant, and – Absence of 3,5-tetrahydronorethisterone (THNE)"
+Not needed,"≤ 15 ng/mL<sup>2, 3</sup>",Females – Presence of THNE
+Required,"2.5 - 15 ng/mL<sup>2, 4</sup>","Males; Females – Non-pregnant, and – Absence of THNE"
+Required,"> 15 ng/mL<sup>2, 3</sup>",Females – Pregnant females
+Optional,2.5 - 15 ng/mL⁴,Females – Pregnant females
+Optional,< 2.5 ng/mL,Males; Females – Non-pregnant – Absence of THNE

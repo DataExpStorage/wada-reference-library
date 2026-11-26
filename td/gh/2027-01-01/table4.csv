@@ -1,0 +1,6 @@
+﻿Procedure,Result,Criteria
+Initial Testing Procedure,Negative Finding,1) Recᵢ/Pitᵢ ≤ DLᵢ AND/OR 2) Recᵢ < 0.150 ng/mL. Where i = (1; 2) - kit used for the ITP.
+Initial Testing Procedure,PAAF,1) Recᵢ/Pitᵢ > DLᵢ AND 2) Recᵢ ≥ 0.150 ng/mL. Where i= (1; 2) - kit used for the ITP.
+Confirmation Procedure,Negative Finding,1) Rec₁/Pit₁ ≤ DL₁ and Rec₂/Pit₂ ≤ DL₂ AND/OR 2) (Rec₁ and Rec₂) < 0.150 ng/mL.
+Confirmation Procedure,ATF,"1) Rec₁/Pit₁ > DL₁ and Rec₁ ≥ 0.150 ng/mL, while Rec₂/Pit₂ ≤ DL₂ OR 2) Rec₁/Pit₁ ≤ DL₁, while Rec₂/Pit₂ > DL₂ and Rec₂ ≥ 0.150 ng/mL."
+Confirmation Procedure,AAF,"1) Rec₁/Pit₁ > DL₁ and Rec₂/Pit₂ > DL₂, AND 3) (Rec₁ and Rec₂) ≥ 0.150 ng/mL."

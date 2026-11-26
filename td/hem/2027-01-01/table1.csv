@@ -1,0 +1,14 @@
+﻿Blood Variable,Blood Variable: abbreviation,Unit(s)
+Hemoglobin,HGB,g/dL
+Hematocrit,HCT,%
+Immature Reticulocyte Fraction,IRF,%
+Mean Corpuscular Haemoglobin,MCH,pg
+Mean Corpuscular Haemoglobin Concentration,MCHC,g/dL
+Mean Corpuscular Volume,MCV,fL
+OFF-Score,-,-
+Platelets,PLT,10³/µL
+Red Blood Cell Distribution Width,RDW-SD,fL
+Red Blood Cells,RBC,10⁶/µL
+Reticulocytes - in absolute number,RET,10⁶/µL
+Reticulocytes Percentage,RET%,%
+White Blood Cells,WBC,10³/µL

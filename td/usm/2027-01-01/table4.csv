@@ -1,0 +1,7 @@
+﻿Marker(s),Reported [T],Reported [E],Reported T/E
+"[T] and [E] higher than or equal to (≥) LOQ<sub>(T)</sub> and LOQ<sub>(E)</sub>, respectively",Report [T] as measured,Report [E] as measured,Report T/E based on measured [T] and [E]
+[T] and/or [E] not measured in the Sample,,,
+· [T] lower than (<) LOQ<sub>(T)</sub>,-1,Report [E] as measured,-1
+· [E] lower than (<) LOQ<sub>(E)</sub>,Report [T] as measured,-1,Report T/E based on measured [T] and LOQ of E (T/LOQ<sub>E</sub>)
+· [T] and [E] lower than (<),,,
+"LOQ<sub>(T)</sub> and LOQ<sub>(E)</sub>, respectively",-1,-1,-1

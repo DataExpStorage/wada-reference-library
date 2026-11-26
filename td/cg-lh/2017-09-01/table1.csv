@@ -1,0 +1,5 @@
+﻿Validation parameter.,Acceptance Criterion.Immunoassays,Acceptance Criterion.LC-MS/MS
+"s<sub>r</sub> (intra-assay Relative Standard Deviation, RSD %)",≤ 10% (at 5 IU/L),≤ 10% (at 2 IU/L)
+s<sub>w</sub> (inter-assay RSD %),≤ 15% (at 5 IU/L),≤ 15% (at 2 IU/L)
+LOQ⁴ (IU/L),≤ 3 IU/L,≤ 0.5 IU/L
+u<sub>c_Max</sub> (%),20% (at 5 IU/L),20% (at 2 IU/L)

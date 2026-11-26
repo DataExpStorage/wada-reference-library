@@ -1,0 +1,5 @@
+﻿Validation Parameter,Acceptance Criterion: Immunoassays,Acceptance Criterion: LC-MS/MS
+s<sub>r</sub>ᵇ (Repeatability),≤ 10% (at 5.00 IU/L),≤ 10% (at 2.00 IU/L)
+s<sub>w</sub>ᵇ (Intermediate Precision),≤ 15% (at 5.00 IU/L),≤ 15% (at 2.00 IU/L)
+"LOQ<sup>b, c</sup> (Limit of Quantification)",≤ 3.00 IU/L,≤ 0.50 IU/L
+u<sub>c_Max</sub> (%) (Maximum Combined Standard Uncertainty),20% (at 5.00 IU/L),20% (at 2.00 IU/L)

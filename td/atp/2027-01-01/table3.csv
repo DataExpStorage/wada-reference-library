@@ -1,0 +1,43 @@
+﻿Prohibited Substance Class,Prohibited Substance Subclass / Specific Examples,Matrix,"Test Method(s)<sup>1, 2, 3</sup>: Qualitative Procedure","Test Method(s)<sup>1, 2, 3</sup>: Quantitative Procedure"
+Relevant Target Analytes,"• 6α-Hydroxy-androstenedione (6α-OH-AD) • 19-NA, 19-NE • Boldenone and Boldenone Metabolite(s) • Epiandrosterone sulfate • Formestane",Urine,n/a,CP: GC/C/IRMS⁵
+S1. Anabolic Agents,• S1.1 Anabolic Androgenic Steroids (AAS): Steroid Esters,"Serum, Plasma DBS",ITP and CP: LC-MSⁿ or GC-MSⁿ,n/a
+S1. Anabolic Agents,• S1.1 Anabolic Androgenic Steroids (AAS): Blood Markers of the Steroidal Module of the ABP⁵,Serum DBS,CP: LC-MSⁿ,ITP/CP: LC-MSⁿ
+S1. Anabolic Agents,• S1.1 Anabolic Androgenic Steroids (AAS): Exogenous AAS,DBS⁹,ITP and CP: LC-MSⁿ or GC-MSⁿ,n/a
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics",S2.1.1 Erythropoietin Receptor Agonists (ERAs)⁵,Urine DBS,ITP and CP: PAGE Methods<sup>[12]</sup> or LC-MSⁿ,n/a
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics",S2.1.2 Hypoxia-inducible Factor (HIF) Activating Agents,DBS,ITP and CP: LC-MSⁿ,n/a
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics",S2.1.2 Hypoxia-inducible Factor (HIF) Activating Agents • Cobalt • Xenon,Urine,n/a,ITP and CP: ICP-MS or GC-MS
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics",S2.1.4 TGFβ Signaling Inhibitors,"Urine Serum, Plasma DBS",ITP and CP: PAGE Methods<sup>[12]</sup> or LC-MSⁿ,n/a
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics",S2.1.5 Innate Repair Receptor Agonists • Asialo EPO • Carbamylated EPO,Urine,ITP and CP: PAGE Methods,n/a
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics","S2.2.1 • Intact hCG<sup>5, 6, 7</sup>",Urine,n/a,CP: Immunoassay or LC-MSⁿ
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics","• LH<sup>5, 10</sup>",Urine,n/a,ITP: Immunoassay
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics","S2.2.1 GnRH<sup>*,8</sup> and its agonist analogues",DBS,ITP and CP: LC-MSⁿ,
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics","S2.2.2 Corticorelin, Tetracosactide","Urine, DBS",ITP and CP: LC-MSⁿ,n/a
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics","S2.2.3 Growth Hormone, its Analogues and Fragments hGH Biomarkers Test⁵",Serum,IGF-I (CP): LC-MSⁿ,"P-III-NP (ITP, CP): immunoassay; IGF-I (ITP, CP): Immunoassay or LC-MSⁿ (bottom-up)"
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics",hGH Analogues (Somatrogon),"Urine Serum, Plasma",CP: LC-MSⁿ,ITP: hGH isoforms test kit 2
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics",Blood Markers of the Endocrine Module of the ABP⁵,Serum,IGF-I (CP): LC-MSⁿ,"P-III-NP (ITP, CP): Siemens Centaur Immunoassay; IGF-I (ITP, CP): LC-MSⁿ (top down)"
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics",S2.2.4 Growth Hormone-Releasing Factors Growth Hormone-Releasing Hormone (GHRH) and its analogues **⁵,"Urine Serum, Plasma",ITP and CP: LC-MSⁿ,n/a
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics",Growth Hormone Secretagogues (GHS) and Growth Hormone Releasing Peptides (GHRPs) *,"Serum, Plasma DBS",ITP and CP: LC-MSⁿ,n/a
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics",S2.3 Growth Factors and Growth Factor Modulators⁵ • IGF-I and its analogues ** • Mechano Growth Factors,"Urine Serum, Plasma DBS",ITP and CP: LC-MSⁿ,n/a
+"S2. Peptide Hormones, Growth Factors, Related Substances, and Mimetics",• TB-500 *,DBS,ITP and CP: LC-MSⁿ,n/a
+S3. Beta-2 Agonists,,DBS,ITP and CP: LC-MSⁿ or GC-MSⁿ,n/a
+S4. Hormone and Metabolic Modulators,S4.1 Aromatase Inhibitors,DBS,ITP and CP: LC-MSⁿ or GC-MSⁿ,n/a
+S4. Hormone and Metabolic Modulators,S4.2 Anti-estrogenic Substances,DBS,ITP and CP: LC-MSⁿ or GC-MSⁿ,n/a
+S4. Hormone and Metabolic Modulators,"S4.3 Agents Preventing Activin Receptor IIB Activation e.g., Bimagrumab","Urine Serum, Plasma",ITP and CP: LC-MSⁿ or PAGE Methods,n/a
+S4. Hormone and Metabolic Modulators,S4.4.1 Activators of the AMP-activated Protein Kinase (AMPK) and Peroxisome Proliferator Activated Receptor δ (PPARδ) Agonists,DBS,ITP and CP: LC-MSⁿ or GC-MSⁿ,n/a
+S4. Hormone and Metabolic Modulators,"S4.4.2 Metabolic Modulators Insulins and insulin-mimetics <sup>**, 5</sup>","Urine Serum, Plasma DBS",ITP and CP: LC-MSⁿ,n/a
+S4. Hormone and Metabolic Modulators,S4.4.4 Trimetazidine,DBS,ITP and CP: LC-MSⁿ or GC-MSⁿ,n/a
+S5. Diuretics and Masking Agents,Diuretics,DBS,ITP and CP: LC-MSⁿ or GC-MSⁿ,n/a
+S5. Diuretics and Masking Agents,"Masking Agent(s) • Desmopressin *, Felypressin *",DBS,ITP and CP: LC-MSⁿ or GC-MSⁿ,n/a
+S5. Diuretics and Masking Agents,"Plasma Expanders • Dextran, HES, Mannitol",Urine,ITP and CP: LC-MSⁿ or GC-MSⁿ,n/a
+M1. Manipulation of Blood and Blood Components,M1.1 • Homologous Blood Transfusion (HBT)⁵,Whole blood,n/a,ITP and CP: Flow Cytometry
+M1. Manipulation of Blood and Blood Components,"• Markers of the Hematological Module of the ABP<sup>5, 11</sup>",Whole blood,n/a,ITP and CP: Flow Cytometry
+M1. Manipulation of Blood and Blood Components,• Phthalates (DEHP Metabolites),Urine,ITP and CP: LC-MSⁿ,n/a
+M1. Manipulation of Blood and Blood Components,M1.2 • Efaproxiral (RSR 13),"Urine, DBS",ITP and CP: LC-MSⁿ,n/a
+M1. Manipulation of Blood and Blood Components,• HBOCs⁵,"Serum, Plasma Whole blood",ITP: Visual inspection Spectrophotometry (serum/plasma); ITP and CP: Native-PAGE; or Capillary Electrophoresis; or Flow Cytometry; or LC-MSⁿ,n/a
+M1. Manipulation of Blood and Blood Components,• Myo-inositol Trispyrophosphate (ITPP),"Urine Serum, Plasma DBS",ITP and CP: LC-MSⁿ,n/a
+M1. Manipulation of Blood and Blood Components,• Voxelotor,Urine DBS,ITP and CP: LC-MSⁿ,n/a
+M2. Chemical and Physical Manipulation,M2.1 Tampering or Attempting to Tamper • Proteases,Urine,"ITP: SDS-PAGE, ITP and CP: LC-MSⁿ",n/a
+M2. Chemical and Physical Manipulation,• Sample Substitution,"Urine Serum, Plasma Whole blood DBS","ITP and CP: DNA sequencing, DNA Profiling, e.g., Short Tandem Repeat (STR)",n/a
+M2. Chemical and Physical Manipulation,• Sample Adulteration,"Urine Serum, Plasma Whole blood DBS",n/a,ITP and CP: Urinalysis Hemograms¹²
+M3. Gene and Cell Doping,"M3.1 Use of Nucleic Acids or Nucleic Acid Analogues • cDNA transfer (e.g., cDNA-EPO)",Whole blood DBS,ITP and CP: PCR based methods⁵,n/a
+M3. Gene and Cell Doping,"• siRNA (e.g., myostatin siRNA)",Urine Whole blood DBS,ITP and CP: PAGE Methods or LC-MSⁿ,n/a

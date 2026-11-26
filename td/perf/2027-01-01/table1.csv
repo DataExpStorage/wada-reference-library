@@ -1,0 +1,26 @@
+﻿Conditions,Nonconformity,Type of Error,Points,Actions and Sanctions
+Routine Analytical Testing,False AAF + Consequence for the Athlete (Art. 3.2.1),Any type of error,20,Cease affected Analytical Testing activities
+Routine Analytical Testing,False AAF + Consequence for the Athlete (Art. 3.2.1),Self-reporting,- 5,
+Routine Analytical Testing,False AAF + Consequence for the Athlete (Art. 3.2.1),Satisfactory and timely CAR,- 5,Resume Analytical Testing¹⁵
+Routine Analytical Testing,False AAF + Consequence for the Athlete (Art. 3.2.1),Unsatisfactory CAR,+ 10,ATR / Suspension¹¹
+Routine Analytical Testing Or EQAS,False AAF + No Consequence for the Athlete (Art. 3.2.2),Technical/Methodological error,20,Cease affected Analytical Testing activities
+Routine Analytical Testing Or EQAS,False AAF + No Consequence for the Athlete (Art. 3.2.2),Self-reporting¹⁶,- 5,
+Routine Analytical Testing Or EQAS,False AAF + No Consequence for the Athlete (Art. 3.2.2),Satisfactory and timely CAR,- 10,Resume Analytical Testing¹⁵
+Routine Analytical Testing Or EQAS,False AAF + No Consequence for the Athlete (Art. 3.2.2),Unsatisfactory CAR,,
+Routine Analytical Testing Or EQAS,False AAF + No Consequence for the Athlete (Art. 3.2.2),· Satisfactory revised CAR,-5,Resume Analytical Testing¹⁵
+Routine Analytical Testing Or EQAS,False AAF + No Consequence for the Athlete (Art. 3.2.2),· Unsatisfactory revised CAR,+ 10,ATR / Suspension¹¹
+Routine Analytical Testing Or EQAS,False AAF + No Consequence for the Athlete (Art. 3.2.2),Clerical/Administrative error,15,Cease affected Analytical Testing activities
+Routine Analytical Testing Or EQAS,False AAF + No Consequence for the Athlete (Art. 3.2.2),Self-reporting¹⁶,- 5,
+Routine Analytical Testing Or EQAS,False AAF + No Consequence for the Athlete (Art. 3.2.2),Satisfactory and timely CAR,- 10,Resume Analytical Testing¹⁵
+Routine Analytical Testing Or EQAS,False AAF + No Consequence for the Athlete (Art. 3.2.2),Unsatisfactory CAR,,
+Routine Analytical Testing Or EQAS,False AAF + No Consequence for the Athlete (Art. 3.2.2),· Satisfactory revised CAR,- 5,Resume Analytical Testing¹⁵
+Routine Analytical Testing Or EQAS,False AAF + No Consequence for the Athlete (Art. 3.2.2),· Unsatisfactory revised CAR,+ 10,ATR / Suspension¹¹
+Routine Analytical Testing Or EQAS,False AAF + No Consequence for the Athlete (Art. 3.2.2),False Negative Finding,10,
+Routine Analytical,False Negative Finding,Self-reporting¹⁶,- 5,Additional EQAS samples¹⁷
+Testing,False Negative Finding,Satisfactory and timely CAR,- 5,Additional EQAS samples¹⁷
+Or,False Negative Finding,Unsatisfactory CAR,,Additional EQAS samples¹⁷
+EQAS,(Art. 3.3),· Satisfactory revised CAR,- 5,
+EQAS,(Art. 3.3),· Unsatisfactory revised CAR,+ 5,
+Routine Analytical Testing,,"ISL, ISL TD or ISL TL Nonconformity¹⁹",,
+Or,Documentation¹⁸ or technical Issue,Unsatisfactory CAR,2,n/a
+EQAS,Documentation¹⁸ or technical Issue,Late Submission of CAR,1,

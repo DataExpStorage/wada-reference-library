@@ -1,0 +1,17 @@
+﻿EQAS Evaluation,Result: condition,Result,Penalty Points
+Steroid Profile Markers |z-score| ≥ 3.0 (Occurrences*),|z-score| ≥ 3.0 and CAR: 4-7,Unsatisfactory CAR,2
+Steroid Profile Markers |z-score| ≥ 3.0 (Occurrences*),|z-score| ≥ 3.0 and CAR: 4-7,Satisfactory and timely CAR,1
+Steroid Profile Markers |z-score| ≥ 3.0 (Occurrences*),|z-score| ≥ 3.0 and CAR: 8-12,Unsatisfactory CAR,4
+Steroid Profile Markers |z-score| ≥ 3.0 (Occurrences*),|z-score| ≥ 3.0 and CAR: 8-12,Satisfactory and timely CAR,2
+Steroid Profile Markers |z-score| ≥ 3.0 (Occurrences*),|z-score| ≥ 3.0 and CAR: 13-18,Unsatisfactory CAR,6
+Steroid Profile Markers |z-score| ≥ 3.0 (Occurrences*),|z-score| ≥ 3.0 and CAR: 13-18,Satisfactory and timely CAR,3
+Steroid Profile Markers |z-score| ≥ 3.0 (Occurrences*),|z-score| ≥ 3.0 and CAR: ≥ 19,Unsatisfactory CAR,8
+Steroid Profile Markers |z-score| ≥ 3.0 (Occurrences*),|z-score| ≥ 3.0 and CAR: ≥ 19,Satisfactory and timely CAR,4
+GC/C/IRMS δ¹³C (≥ 3 Occurrences**); Threshold Substances (per occurrence),2.0 < |z-score| < 3.0,Internal Investigation,0
+GC/C/IRMS δ¹³C (≥ 3 Occurrences**); Threshold Substances (per occurrence),|z-score| ≥ 3.0³¹,Unsatisfactory CAR,5
+GC/C/IRMS δ¹³C (≥ 3 Occurrences**); Threshold Substances (per occurrence),|z-score| ≥ 3.0³¹,Satisfactory and timely CAR,0
+SG determination (per occurrence),|z-score| ≥ 3.0,Unsatisfactory CAR,1
+Documentation*** or Technical Issue (per occurrence),,"ISL, TD or TL Nonconformity",2
+Documentation*** or Technical Issue (per occurrence),,Unsatisfactory CAR,2
+Documentation*** or Technical Issue (per occurrence),,Late Submission of CAR (per 7 days beyond the deadline),1
+Documentation*** or Technical Issue (per occurrence),,Late reporting of blind or double-blind EQAS results³² (late reporting 8 to 14 days beyond the deadline),2 2
